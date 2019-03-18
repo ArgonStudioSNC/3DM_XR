@@ -1,0 +1,23 @@
+ManifestFileVersion: 0
+CRC: 1717435038
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: 01_wegmatten_scenebundle
+      Dependencies:
+        Dependency_0: 00_argon_mainbundle
+    Info_1:
+      Name: 02_jolimont_scenebundle
+      Dependencies:
+        Dependency_0: 00_argon_mainbundle
+    Info_2:
+      Name: 04_bahnhofsareal_altdorf_scenebundle
+      Dependencies:
+        Dependency_0: 00_argon_mainbundle
+    Info_3:
+      Name: 03_saar_scenebundle
+      Dependencies:
+        Dependency_0: 00_argon_mainbundle
+    Info_4:
+      Name: 00_argon_mainbundle
+      Dependencies: {}

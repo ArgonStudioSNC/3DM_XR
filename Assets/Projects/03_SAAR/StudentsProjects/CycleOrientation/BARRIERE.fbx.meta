@@ -1,0 +1,432 @@
+fileFormatVersion: 2
+guid: 402b7ef8400514b378a2926d427efb1a
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: M_Poteau rectangulaire 457 x 475mm [291453]
+    100004: "M_Poteau rond Diam\xE8tre de 152 mm [288279]"
+    100006: "M_Poteau rond Diam\xE8tre de 152 mm [288376]"
+    100008: "M_Poteau rond Diam\xE8tre de 152 mm [288379]"
+    100010: "M_Poteau rond Diam\xE8tre de 152 mm [288382]"
+    100012: "M_Poteau rond Diam\xE8tre de 152 mm [288385]"
+    100014: "M_Poteau rond Diam\xE8tre de 152 mm [288388]"
+    100016: "M_Poteau rond Diam\xE8tre de 152 mm [288391]"
+    100018: "M_Poteau rond Diam\xE8tre de 152 mm [288394]"
+    100020: "M_Poteau rond Diam\xE8tre de 152 mm [288397]"
+    100022: "M_Poteau rond Diam\xE8tre de 152 mm [288400]"
+    100024: "M_Poteau rond Diam\xE8tre de 152 mm [288403]"
+    100026: "M_Poteau rond Diam\xE8tre de 152 mm [290499]"
+    100028: "M_Poteau rond Diam\xE8tre de 152 mm [290500]"
+    100030: "M_Poteau rond Diam\xE8tre de 152 mm [290501]"
+    100032: "M_Poteau rond Diam\xE8tre de 152 mm [290502]"
+    100034: "M_Poteau rond Diam\xE8tre de 152 mm [290503]"
+    100036: "M_Poteau rond Diam\xE8tre de 152 mm [290504]"
+    100038: "M_Poteau rond Diam\xE8tre de 152 mm [290505]"
+    100040: "M_Poteau rond Diam\xE8tre de 152 mm [290506]"
+    100042: "M_Poteau rond Diam\xE8tre de 152 mm [290507]"
+    100044: "M_Poteau rond Diam\xE8tre de 152 mm [290508]"
+    100046: "M_Poteau rond Diam\xE8tre de 152 mm [291787]"
+    100048: "M_Poteau rond Diam\xE8tre de 152 mm [291788]"
+    100050: "M_Poteau rond Diam\xE8tre de 152 mm [291789]"
+    100052: "M_Poteau rond Diam\xE8tre de 152 mm [291790]"
+    100054: "M_Poteau rond Diam\xE8tre de 152 mm [291791]"
+    100056: "M_Poteau rond Diam\xE8tre de 152 mm [291792]"
+    100058: "M_Poteau rond Diam\xE8tre de 152 mm [291793]"
+    100060: "M_Poteau rond Diam\xE8tre de 152 mm [291794]"
+    100062: "M_Poteau rond Diam\xE8tre de 152 mm [291795]"
+    100064: "M_Poteau rond Diam\xE8tre de 152 mm [291796]"
+    100066: "M_Poteau rond Diam\xE8tre de 152 mm [291797]"
+    100068: "M_Poteau rond Diam\xE8tre de 152 mm [291798]"
+    100070: "M_Poteau rond Diam\xE8tre de 152 mm [291799]"
+    100072: "M_Poteau rond Diam\xE8tre de 152 mm [291800]"
+    100074: "M_Poteau rond Diam\xE8tre de 152 mm [291801]"
+    100076: "M_Poteau rond Diam\xE8tre de 152 mm [291802]"
+    100078: "M_Poteau rond Diam\xE8tre de 152 mm [291803]"
+    100080: "M_Poteau rond Diam\xE8tre de 152 mm [291804]"
+    100082: "M_Poteau rond Diam\xE8tre de 152 mm [291805]"
+    100084: "M_Poteau rond Diam\xE8tre de 152 mm [291806]"
+    100086: "M_Poteau rond Diam\xE8tre de 152 mm [291807]"
+    100088: M_Pyramide M_Pyramide [285451]
+    100090: M_Pyramide M_Pyramide [291773]
+    100092: Mur de base 1 [290643]
+    100094: Sol 1 [282238]
+    100096: Sol 1 [291633]
+    100098: Sol 3 [282310]
+    100100: Sol 3 [283269]
+    100102: Sol 3 [283382]
+    100104: Sol 3 [291640]
+    100106: Sol 3 [291668]
+    100108: Sol 3 [291677]
+    100110: Sol 4 [282902]
+    100112: Sol 4 [283222]
+    100114: Sol 4 [291646]
+    100116: Sol 4 [291660]
+    100118: Sol 5 [283077]
+    100120: Sol 5 [291654]
+    100122: Sol 6 [283308]
+    100124: Sol 6 [291674]
+    100126: Sol BARRE 2 [291503]
+    100128: Sol BARRE [291243]
+    100130: Sol BARRE [291298]
+    100132: Sol BARRE [291809]
+    100134: Sol BARRE [291815]
+    100136: Volume 1 Volume 1 [283651]
+    100138: Volume 2 Volume 1 [283742]
+    100140: Volume 3 Volume 1 [291726]
+    100142: Volume 4 Volume 1 [291771]
+    100144: 'Vue 3D: {3D}'
+    400000: //RootNode
+    400002: M_Poteau rectangulaire 457 x 475mm [291453]
+    400004: "M_Poteau rond Diam\xE8tre de 152 mm [288279]"
+    400006: "M_Poteau rond Diam\xE8tre de 152 mm [288376]"
+    400008: "M_Poteau rond Diam\xE8tre de 152 mm [288379]"
+    400010: "M_Poteau rond Diam\xE8tre de 152 mm [288382]"
+    400012: "M_Poteau rond Diam\xE8tre de 152 mm [288385]"
+    400014: "M_Poteau rond Diam\xE8tre de 152 mm [288388]"
+    400016: "M_Poteau rond Diam\xE8tre de 152 mm [288391]"
+    400018: "M_Poteau rond Diam\xE8tre de 152 mm [288394]"
+    400020: "M_Poteau rond Diam\xE8tre de 152 mm [288397]"
+    400022: "M_Poteau rond Diam\xE8tre de 152 mm [288400]"
+    400024: "M_Poteau rond Diam\xE8tre de 152 mm [288403]"
+    400026: "M_Poteau rond Diam\xE8tre de 152 mm [290499]"
+    400028: "M_Poteau rond Diam\xE8tre de 152 mm [290500]"
+    400030: "M_Poteau rond Diam\xE8tre de 152 mm [290501]"
+    400032: "M_Poteau rond Diam\xE8tre de 152 mm [290502]"
+    400034: "M_Poteau rond Diam\xE8tre de 152 mm [290503]"
+    400036: "M_Poteau rond Diam\xE8tre de 152 mm [290504]"
+    400038: "M_Poteau rond Diam\xE8tre de 152 mm [290505]"
+    400040: "M_Poteau rond Diam\xE8tre de 152 mm [290506]"
+    400042: "M_Poteau rond Diam\xE8tre de 152 mm [290507]"
+    400044: "M_Poteau rond Diam\xE8tre de 152 mm [290508]"
+    400046: "M_Poteau rond Diam\xE8tre de 152 mm [291787]"
+    400048: "M_Poteau rond Diam\xE8tre de 152 mm [291788]"
+    400050: "M_Poteau rond Diam\xE8tre de 152 mm [291789]"
+    400052: "M_Poteau rond Diam\xE8tre de 152 mm [291790]"
+    400054: "M_Poteau rond Diam\xE8tre de 152 mm [291791]"
+    400056: "M_Poteau rond Diam\xE8tre de 152 mm [291792]"
+    400058: "M_Poteau rond Diam\xE8tre de 152 mm [291793]"
+    400060: "M_Poteau rond Diam\xE8tre de 152 mm [291794]"
+    400062: "M_Poteau rond Diam\xE8tre de 152 mm [291795]"
+    400064: "M_Poteau rond Diam\xE8tre de 152 mm [291796]"
+    400066: "M_Poteau rond Diam\xE8tre de 152 mm [291797]"
+    400068: "M_Poteau rond Diam\xE8tre de 152 mm [291798]"
+    400070: "M_Poteau rond Diam\xE8tre de 152 mm [291799]"
+    400072: "M_Poteau rond Diam\xE8tre de 152 mm [291800]"
+    400074: "M_Poteau rond Diam\xE8tre de 152 mm [291801]"
+    400076: "M_Poteau rond Diam\xE8tre de 152 mm [291802]"
+    400078: "M_Poteau rond Diam\xE8tre de 152 mm [291803]"
+    400080: "M_Poteau rond Diam\xE8tre de 152 mm [291804]"
+    400082: "M_Poteau rond Diam\xE8tre de 152 mm [291805]"
+    400084: "M_Poteau rond Diam\xE8tre de 152 mm [291806]"
+    400086: "M_Poteau rond Diam\xE8tre de 152 mm [291807]"
+    400088: M_Pyramide M_Pyramide [285451]
+    400090: M_Pyramide M_Pyramide [291773]
+    400092: Mur de base 1 [290643]
+    400094: Sol 1 [282238]
+    400096: Sol 1 [291633]
+    400098: Sol 3 [282310]
+    400100: Sol 3 [283269]
+    400102: Sol 3 [283382]
+    400104: Sol 3 [291640]
+    400106: Sol 3 [291668]
+    400108: Sol 3 [291677]
+    400110: Sol 4 [282902]
+    400112: Sol 4 [283222]
+    400114: Sol 4 [291646]
+    400116: Sol 4 [291660]
+    400118: Sol 5 [283077]
+    400120: Sol 5 [291654]
+    400122: Sol 6 [283308]
+    400124: Sol 6 [291674]
+    400126: Sol BARRE 2 [291503]
+    400128: Sol BARRE [291243]
+    400130: Sol BARRE [291298]
+    400132: Sol BARRE [291809]
+    400134: Sol BARRE [291815]
+    400136: Volume 1 Volume 1 [283651]
+    400138: Volume 2 Volume 1 [283742]
+    400140: Volume 3 Volume 1 [291726]
+    400142: Volume 4 Volume 1 [291771]
+    400144: 'Vue 3D: {3D}'
+    2000000: 'Vue 3D: {3D}'
+    2100000: No Name
+    2300000: M_Poteau rectangulaire 457 x 475mm [291453]
+    2300002: "M_Poteau rond Diam\xE8tre de 152 mm [288279]"
+    2300004: "M_Poteau rond Diam\xE8tre de 152 mm [288376]"
+    2300006: "M_Poteau rond Diam\xE8tre de 152 mm [288379]"
+    2300008: "M_Poteau rond Diam\xE8tre de 152 mm [288382]"
+    2300010: "M_Poteau rond Diam\xE8tre de 152 mm [288385]"
+    2300012: "M_Poteau rond Diam\xE8tre de 152 mm [288388]"
+    2300014: "M_Poteau rond Diam\xE8tre de 152 mm [288391]"
+    2300016: "M_Poteau rond Diam\xE8tre de 152 mm [288394]"
+    2300018: "M_Poteau rond Diam\xE8tre de 152 mm [288397]"
+    2300020: "M_Poteau rond Diam\xE8tre de 152 mm [288400]"
+    2300022: "M_Poteau rond Diam\xE8tre de 152 mm [288403]"
+    2300024: "M_Poteau rond Diam\xE8tre de 152 mm [290499]"
+    2300026: "M_Poteau rond Diam\xE8tre de 152 mm [290500]"
+    2300028: "M_Poteau rond Diam\xE8tre de 152 mm [290501]"
+    2300030: "M_Poteau rond Diam\xE8tre de 152 mm [290502]"
+    2300032: "M_Poteau rond Diam\xE8tre de 152 mm [290503]"
+    2300034: "M_Poteau rond Diam\xE8tre de 152 mm [290504]"
+    2300036: "M_Poteau rond Diam\xE8tre de 152 mm [290505]"
+    2300038: "M_Poteau rond Diam\xE8tre de 152 mm [290506]"
+    2300040: "M_Poteau rond Diam\xE8tre de 152 mm [290507]"
+    2300042: "M_Poteau rond Diam\xE8tre de 152 mm [290508]"
+    2300044: "M_Poteau rond Diam\xE8tre de 152 mm [291787]"
+    2300046: "M_Poteau rond Diam\xE8tre de 152 mm [291788]"
+    2300048: "M_Poteau rond Diam\xE8tre de 152 mm [291789]"
+    2300050: "M_Poteau rond Diam\xE8tre de 152 mm [291790]"
+    2300052: "M_Poteau rond Diam\xE8tre de 152 mm [291791]"
+    2300054: "M_Poteau rond Diam\xE8tre de 152 mm [291792]"
+    2300056: "M_Poteau rond Diam\xE8tre de 152 mm [291793]"
+    2300058: "M_Poteau rond Diam\xE8tre de 152 mm [291794]"
+    2300060: "M_Poteau rond Diam\xE8tre de 152 mm [291795]"
+    2300062: "M_Poteau rond Diam\xE8tre de 152 mm [291796]"
+    2300064: "M_Poteau rond Diam\xE8tre de 152 mm [291797]"
+    2300066: "M_Poteau rond Diam\xE8tre de 152 mm [291798]"
+    2300068: "M_Poteau rond Diam\xE8tre de 152 mm [291799]"
+    2300070: "M_Poteau rond Diam\xE8tre de 152 mm [291800]"
+    2300072: "M_Poteau rond Diam\xE8tre de 152 mm [291801]"
+    2300074: "M_Poteau rond Diam\xE8tre de 152 mm [291802]"
+    2300076: "M_Poteau rond Diam\xE8tre de 152 mm [291803]"
+    2300078: "M_Poteau rond Diam\xE8tre de 152 mm [291804]"
+    2300080: "M_Poteau rond Diam\xE8tre de 152 mm [291805]"
+    2300082: "M_Poteau rond Diam\xE8tre de 152 mm [291806]"
+    2300084: "M_Poteau rond Diam\xE8tre de 152 mm [291807]"
+    2300086: M_Pyramide M_Pyramide [285451]
+    2300088: M_Pyramide M_Pyramide [291773]
+    2300090: Mur de base 1 [290643]
+    2300092: Sol 1 [282238]
+    2300094: Sol 1 [291633]
+    2300096: Sol 3 [282310]
+    2300098: Sol 3 [283269]
+    2300100: Sol 3 [283382]
+    2300102: Sol 3 [291640]
+    2300104: Sol 3 [291668]
+    2300106: Sol 3 [291677]
+    2300108: Sol 4 [282902]
+    2300110: Sol 4 [283222]
+    2300112: Sol 4 [291646]
+    2300114: Sol 4 [291660]
+    2300116: Sol 5 [283077]
+    2300118: Sol 5 [291654]
+    2300120: Sol 6 [283308]
+    2300122: Sol 6 [291674]
+    2300124: Sol BARRE 2 [291503]
+    2300126: Sol BARRE [291243]
+    2300128: Sol BARRE [291298]
+    2300130: Sol BARRE [291809]
+    2300132: Sol BARRE [291815]
+    2300134: Volume 1 Volume 1 [283651]
+    2300136: Volume 2 Volume 1 [283742]
+    2300138: Volume 3 Volume 1 [291726]
+    2300140: Volume 4 Volume 1 [291771]
+    3300000: M_Poteau rectangulaire 457 x 475mm [291453]
+    3300002: "M_Poteau rond Diam\xE8tre de 152 mm [288279]"
+    3300004: "M_Poteau rond Diam\xE8tre de 152 mm [288376]"
+    3300006: "M_Poteau rond Diam\xE8tre de 152 mm [288379]"
+    3300008: "M_Poteau rond Diam\xE8tre de 152 mm [288382]"
+    3300010: "M_Poteau rond Diam\xE8tre de 152 mm [288385]"
+    3300012: "M_Poteau rond Diam\xE8tre de 152 mm [288388]"
+    3300014: "M_Poteau rond Diam\xE8tre de 152 mm [288391]"
+    3300016: "M_Poteau rond Diam\xE8tre de 152 mm [288394]"
+    3300018: "M_Poteau rond Diam\xE8tre de 152 mm [288397]"
+    3300020: "M_Poteau rond Diam\xE8tre de 152 mm [288400]"
+    3300022: "M_Poteau rond Diam\xE8tre de 152 mm [288403]"
+    3300024: "M_Poteau rond Diam\xE8tre de 152 mm [290499]"
+    3300026: "M_Poteau rond Diam\xE8tre de 152 mm [290500]"
+    3300028: "M_Poteau rond Diam\xE8tre de 152 mm [290501]"
+    3300030: "M_Poteau rond Diam\xE8tre de 152 mm [290502]"
+    3300032: "M_Poteau rond Diam\xE8tre de 152 mm [290503]"
+    3300034: "M_Poteau rond Diam\xE8tre de 152 mm [290504]"
+    3300036: "M_Poteau rond Diam\xE8tre de 152 mm [290505]"
+    3300038: "M_Poteau rond Diam\xE8tre de 152 mm [290506]"
+    3300040: "M_Poteau rond Diam\xE8tre de 152 mm [290507]"
+    3300042: "M_Poteau rond Diam\xE8tre de 152 mm [290508]"
+    3300044: "M_Poteau rond Diam\xE8tre de 152 mm [291787]"
+    3300046: "M_Poteau rond Diam\xE8tre de 152 mm [291788]"
+    3300048: "M_Poteau rond Diam\xE8tre de 152 mm [291789]"
+    3300050: "M_Poteau rond Diam\xE8tre de 152 mm [291790]"
+    3300052: "M_Poteau rond Diam\xE8tre de 152 mm [291791]"
+    3300054: "M_Poteau rond Diam\xE8tre de 152 mm [291792]"
+    3300056: "M_Poteau rond Diam\xE8tre de 152 mm [291793]"
+    3300058: "M_Poteau rond Diam\xE8tre de 152 mm [291794]"
+    3300060: "M_Poteau rond Diam\xE8tre de 152 mm [291795]"
+    3300062: "M_Poteau rond Diam\xE8tre de 152 mm [291796]"
+    3300064: "M_Poteau rond Diam\xE8tre de 152 mm [291797]"
+    3300066: "M_Poteau rond Diam\xE8tre de 152 mm [291798]"
+    3300068: "M_Poteau rond Diam\xE8tre de 152 mm [291799]"
+    3300070: "M_Poteau rond Diam\xE8tre de 152 mm [291800]"
+    3300072: "M_Poteau rond Diam\xE8tre de 152 mm [291801]"
+    3300074: "M_Poteau rond Diam\xE8tre de 152 mm [291802]"
+    3300076: "M_Poteau rond Diam\xE8tre de 152 mm [291803]"
+    3300078: "M_Poteau rond Diam\xE8tre de 152 mm [291804]"
+    3300080: "M_Poteau rond Diam\xE8tre de 152 mm [291805]"
+    3300082: "M_Poteau rond Diam\xE8tre de 152 mm [291806]"
+    3300084: "M_Poteau rond Diam\xE8tre de 152 mm [291807]"
+    3300086: M_Pyramide M_Pyramide [285451]
+    3300088: M_Pyramide M_Pyramide [291773]
+    3300090: Mur de base 1 [290643]
+    3300092: Sol 1 [282238]
+    3300094: Sol 1 [291633]
+    3300096: Sol 3 [282310]
+    3300098: Sol 3 [283269]
+    3300100: Sol 3 [283382]
+    3300102: Sol 3 [291640]
+    3300104: Sol 3 [291668]
+    3300106: Sol 3 [291677]
+    3300108: Sol 4 [282902]
+    3300110: Sol 4 [283222]
+    3300112: Sol 4 [291646]
+    3300114: Sol 4 [291660]
+    3300116: Sol 5 [283077]
+    3300118: Sol 5 [291654]
+    3300120: Sol 6 [283308]
+    3300122: Sol 6 [291674]
+    3300124: Sol BARRE 2 [291503]
+    3300126: Sol BARRE [291243]
+    3300128: Sol BARRE [291298]
+    3300130: Sol BARRE [291809]
+    3300132: Sol BARRE [291815]
+    3300134: Volume 1 Volume 1 [283651]
+    3300136: Volume 2 Volume 1 [283742]
+    3300138: Volume 3 Volume 1 [291726]
+    3300140: Volume 4 Volume 1 [291771]
+    4300000: Sol 1 [282238]
+    4300002: Sol 3 [282310]
+    4300004: Sol 4 [282902]
+    4300006: Sol 5 [283077]
+    4300008: Sol 4 [283222]
+    4300010: Sol 3 [283269]
+    4300012: Sol 6 [283308]
+    4300014: Sol 3 [283382]
+    4300016: Volume 1 Volume 1 [283651]
+    4300018: Volume 2 Volume 1 [283742]
+    4300020: M_Pyramide M_Pyramide [285451]
+    4300022: "M_Poteau rond Diam\xE8tre de 152 mm [288279]"
+    4300024: "M_Poteau rond Diam\xE8tre de 152 mm [288376]"
+    4300026: "M_Poteau rond Diam\xE8tre de 152 mm [288379]"
+    4300028: "M_Poteau rond Diam\xE8tre de 152 mm [288382]"
+    4300030: "M_Poteau rond Diam\xE8tre de 152 mm [288385]"
+    4300032: "M_Poteau rond Diam\xE8tre de 152 mm [288388]"
+    4300034: "M_Poteau rond Diam\xE8tre de 152 mm [288391]"
+    4300036: "M_Poteau rond Diam\xE8tre de 152 mm [288394]"
+    4300038: "M_Poteau rond Diam\xE8tre de 152 mm [288397]"
+    4300040: "M_Poteau rond Diam\xE8tre de 152 mm [288400]"
+    4300042: "M_Poteau rond Diam\xE8tre de 152 mm [288403]"
+    4300044: "M_Poteau rond Diam\xE8tre de 152 mm [290499]"
+    4300046: "M_Poteau rond Diam\xE8tre de 152 mm [290500]"
+    4300048: "M_Poteau rond Diam\xE8tre de 152 mm [290501]"
+    4300050: "M_Poteau rond Diam\xE8tre de 152 mm [290502]"
+    4300052: "M_Poteau rond Diam\xE8tre de 152 mm [290503]"
+    4300054: "M_Poteau rond Diam\xE8tre de 152 mm [290504]"
+    4300056: "M_Poteau rond Diam\xE8tre de 152 mm [290505]"
+    4300058: "M_Poteau rond Diam\xE8tre de 152 mm [290506]"
+    4300060: "M_Poteau rond Diam\xE8tre de 152 mm [290507]"
+    4300062: "M_Poteau rond Diam\xE8tre de 152 mm [290508]"
+    4300064: Mur de base 1 [290643]
+    4300066: Sol BARRE [291243]
+    4300068: Sol BARRE [291298]
+    4300070: M_Poteau rectangulaire 457 x 475mm [291453]
+    4300072: Sol BARRE 2 [291503]
+    4300074: Sol 1 [291633]
+    4300076: Sol 3 [291640]
+    4300078: Sol 4 [291646]
+    4300080: Sol 5 [291654]
+    4300082: Sol 4 [291660]
+    4300084: Sol 3 [291668]
+    4300086: Sol 6 [291674]
+    4300088: Sol 3 [291677]
+    4300090: Volume 3 Volume 1 [291726]
+    4300092: Volume 4 Volume 1 [291771]
+    4300094: M_Pyramide M_Pyramide [291773]
+    4300096: "M_Poteau rond Diam\xE8tre de 152 mm [291797]"
+    4300098: Sol BARRE [291809]
+    4300100: Sol BARRE [291815]
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

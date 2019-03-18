@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: f380bc28d048b714492932a75db68612
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - reticle: {instanceID: 0}
+  - reticleFocused: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

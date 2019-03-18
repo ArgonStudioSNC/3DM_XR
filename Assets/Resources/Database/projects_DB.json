@@ -1,0 +1,32 @@
+{
+  "array": [
+    {
+      "name": "01_Wegmatten",
+      "firstScene": "Wegmatten-Menu",
+      "requieredBundles": [
+        "01_wegmatten_scenebundle"
+      ]
+    },
+    {
+      "name": "02_Jolimont",
+      "firstScene": "Jolimont",
+      "requieredBundles": [
+        "02_jolimont_scenebundle"
+      ]
+    },
+    {
+      "name": "03_SAAR",
+      "firstScene": "SAAR-Menu",
+      "requieredBundles": [
+        "03_saar_scenebundle"
+      ]
+    },
+    {
+      "name": "04_BA_Altdorf",
+      "firstScene": "BA_Altdorf",
+      "requieredBundles": [
+        "04_bahnhofsareal_altdorf_scenebundle"
+      ]
+    }
+  ]
+}

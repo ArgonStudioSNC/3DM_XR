@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="Chaillet_Target" size="1.000000 0.305705" />
+    <ImageTarget name="UNIFrPlan_Target" size="50.000000 64.394875" />
+    <ImageTarget name="REX_Target" size="50.000000 132.558136" />
+    <ImageTarget name="FribourgPlan_Target" size="50.000000 68.278809" />
+    <ImageTarget name="CycleOrientation_Target" size="50.000000 17.444326" />
+  </Tracking>
+</QCARConfig>

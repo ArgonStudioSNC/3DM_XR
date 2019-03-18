@@ -1,0 +1,28 @@
+fileFormatVersion: 2
+guid: 5fa2d7d6bcb68f7438f423bff9ca4a7e
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Roboto
+  fontNames:
+  - Roboto
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 535a7e67b128c104c9e931043021f193, type: 3}
+  - {fileID: 12800000, guid: 0cfcb548efbe4de409dff8726f85509d, type: 3}
+  - {fileID: 12800000, guid: 5f2d25c82881ac84b832ceea63f1d5c6, type: 3}
+  - {fileID: 12800000, guid: 51aa4a5bcaae5874fb23c5e3a506d5fd, type: 3}
+  - {fileID: 12800000, guid: 4490f78b6d60d18449396f70f54dd13e, type: 3}
+  - {fileID: 12800000, guid: 4f9322ee88313a446a96d1a6732d4d92, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 00_argon_mainbundle
+  assetBundleVariant: 

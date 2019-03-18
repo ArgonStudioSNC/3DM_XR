@@ -1,0 +1,158 @@
+fileFormatVersion: 2
+guid: 96f24686ef52e4a81a25407174f1ed74
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Bois - Pin granuleux horizontal
+    100004: Brique - Terre-cuite
+    100006: "B\xE9ton - Brut"
+    100008: "Enduit - Cr\xE9pis"
+    100010: "Enduit - Pl\xE2tre"
+    100012: "Etanch\xE9it\xE9 - Membrane souple"
+    100014: Isolation - Laine de verre/roche
+    100016: Isolation - Panneau rigide
+    100018: "Pl\xE2tre - Plaques de pl\xE2tre"
+    100020: "Toit - Tuiles fran\xE7aises rouges"
+    400000: //RootNode
+    400002: Bois - Pin granuleux horizontal
+    400004: Brique - Terre-cuite
+    400006: "B\xE9ton - Brut"
+    400008: "Enduit - Cr\xE9pis"
+    400010: "Enduit - Pl\xE2tre"
+    400012: "Etanch\xE9it\xE9 - Membrane souple"
+    400014: Isolation - Laine de verre/roche
+    400016: Isolation - Panneau rigide
+    400018: "Pl\xE2tre - Plaques de pl\xE2tre"
+    400020: "Toit - Tuiles fran\xE7aises rouges"
+    2100000: Bois - Pin granuleux horizontal
+    2100002: "Enduit - Pl\xE2tre"
+    2100004: Isolation - Laine de verre_roche
+    2100006: Isolation - Panneau rigide
+    2100008: "Pl\xE2tre - Plaques de pl\xE2tre"
+    2100010: "Enduit - Cr\xE9pis"
+    2100012: "Etanch\xE9it\xE9 - Membrane souple"
+    2100014: Brique - Terre-cuite
+    2100016: "B\xE9ton - Brut"
+    2100018: "Toit - Tuiles fran\xE7aises rouges"
+    2100020: No Name
+    2300000: Bois - Pin granuleux horizontal
+    2300002: Brique - Terre-cuite
+    2300004: "B\xE9ton - Brut"
+    2300006: "Enduit - Cr\xE9pis"
+    2300008: "Enduit - Pl\xE2tre"
+    2300010: "Etanch\xE9it\xE9 - Membrane souple"
+    2300012: Isolation - Laine de verre/roche
+    2300014: Isolation - Panneau rigide
+    2300016: "Pl\xE2tre - Plaques de pl\xE2tre"
+    2300018: "Toit - Tuiles fran\xE7aises rouges"
+    2300020: //RootNode
+    3300000: Bois - Pin granuleux horizontal
+    3300002: Brique - Terre-cuite
+    3300004: "B\xE9ton - Brut"
+    3300006: "Enduit - Cr\xE9pis"
+    3300008: "Enduit - Pl\xE2tre"
+    3300010: "Etanch\xE9it\xE9 - Membrane souple"
+    3300012: Isolation - Laine de verre/roche
+    3300014: Isolation - Panneau rigide
+    3300016: "Pl\xE2tre - Plaques de pl\xE2tre"
+    3300018: "Toit - Tuiles fran\xE7aises rouges"
+    3300020: //RootNode
+    4300000: Bois - Pin granuleux horizontal
+    4300002: "Enduit - Pl\xE2tre"
+    4300004: Isolation - Laine de verre/roche
+    4300006: Isolation - Panneau rigide
+    4300008: "Pl\xE2tre - Plaques de pl\xE2tre"
+    4300010: "Enduit - Cr\xE9pis"
+    4300012: "Etanch\xE9it\xE9 - Membrane souple"
+    4300014: Brique - Terre-cuite
+    4300016: "B\xE9ton - Brut"
+    4300018: "Toit - Tuiles fran\xE7aises rouges"
+    4300020: Ancienne gareee
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

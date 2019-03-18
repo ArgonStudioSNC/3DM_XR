@@ -1,0 +1,24 @@
+<linker>
+  <assembly fullname="UnityEngine">    
+    <!--class with ID 74-->
+    <type fullname="UnityEngine.AnimationClip" preserve="all"/>
+    <!--class with ID 81-->
+    <type fullname="UnityEngine.AudioListener" preserve="all"/>
+    <!--class with ID 82-->
+    <type fullname="UnityEngine.AudioSource" preserve="all"/>
+    <!--class with ID 83-->
+    <type fullname="UnityEngine.AudioClip" preserve="all"/>
+    <!--class with ID 90-->
+    <type fullname="UnityEngine.Avatar" preserve="all"/>
+    <!--class with ID 91-->
+    <type fullname="UnityEngine.AnimatorController" preserve="all"/>    
+    <!--class with ID 93-->
+    <type fullname="UnityEngine.RuntimeAnimatorController" preserve="all"/>
+    <!--class with ID 136-->
+    <type fullname="UnityEngine.CapsuleCollider" preserve="all"/>
+    <!--class with ID 198-->
+    <type fullname="UnityEngine.ParticleSystem" preserve="all"/>
+    <!--class with ID 199-->
+    <type fullname="UnityEngine.ParticleSystemRenderer" preserve="all"/>
+  </assembly>
+</linker>

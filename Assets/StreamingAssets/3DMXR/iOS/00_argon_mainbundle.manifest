@@ -1,0 +1,56 @@
+ManifestFileVersion: 0
+CRC: 735946223
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d8c3b5f78ba689df1d97d3c8412c1a3d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: e87dbf8571acb99b61a8c3872f3764ee
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Projects/Common/Sprites/baseline-arrow_back-android-black/res/drawable-xxxhdpi/baseline_arrow_back_black_48.png
+- Assets/Projects/Common/Sprites/right-chevron@3x.png
+- Assets/Projects/Common/Shaders/OverlayMesh.shader
+- Assets/Projects/Common/Sprites/left-chevron@3x.png
+- Assets/Projects/Common/Fonts/Roboto-ThinItalic.ttf
+- Assets/Projects/01_Wegmatten/Fonts/SourceSansPro-Regular.ttf
+- Assets/Projects/Common/Sprites/baseline-camera_front-android-black/res/drawable-xxxhdpi/baseline_camera_front_black_48.png
+- Assets/Vuforia/Fonts/SourceSansPro.ttf
+- Assets/Projects/Common/Shaders/BlackMask.shader
+- Assets/Projects/Common/Sprites/baseline-keyboard_arrow_up-android-black/res/drawable-xxxhdpi/baseline_keyboard_arrow_up_black_48.png
+- Assets/Projects/Common/Fonts/Roboto-Thin.ttf
+- Assets/Projects/Common/Fonts/Roboto-Bold.ttf
+- Assets/Projects/Common/Sprites/baseline-highlight-android-black/res/drawable-xxxhdpi/baseline_highlight_black_48.png
+- Assets/Projects/Common/Sprites/baseline-keyboard_arrow_up-android-black/res/drawable-xxxhdpi/baseline_keyboard_arrow_up_white_48.png
+- Assets/Projects/Common/Sprites/baseline-360-android-black/res/drawable-xxxhdpi/baseline_360_black_48.png
+- Assets/Projects/Common/Fonts/Roboto-Medium.ttf
+- Assets/Projects/Common/Fonts/Roboto-Black.ttf
+- Assets/Projects/Common/Fonts/Roboto-BlackItalic.ttf
+- Assets/Projects/Common/Sprites/baseline-keyboard_arrow_down-android-black/res/drawable-xxxhdpi/baseline_keyboard_arrow_down_black_48.png
+- Assets/Projects/Common/Sprites/baseline-fullscreen-android-black/res/drawable-xxxhdpi/baseline_fullscreen_black_48.png
+- Assets/Projects/Common/Sprites/baseline-fullscreen_exit-android-black/res/drawable-xxxhdpi/baseline_fullscreen_exit_black_48.png
+- Assets/Projects/Common/Fonts/Roboto-MediumItalic.ttf
+- Assets/Projects/Common/Sprites/baseline-more_horiz-android-black/res/drawable-xxxhdpi/baseline_more_horiz_black_48.png
+- Assets/Projects/Common/Fonts/Roboto-Regular.ttf
+- Assets/Projects/Common/Sprites/baseline-close-android-black/res/drawable-xxxhdpi/baseline_close_black_48.png
+- Assets/Projects/Common/Sprites/baseline-more_vert-android-black/res/drawable-xxxhdpi/baseline_more_vert_black_48.png
+- Assets/Editor/Vuforia/ImageTargetTextures/Argon_Main/00_3DM_Target_scaled.jpg
+- Assets/Projects/Common/Sprites/baseline-keyboard_arrow_down-android-black/res/drawable-xxxhdpi/baseline_keyboard_arrow_down_white_48.png
+- Assets/Projects/Common/Fonts/Roboto-Light.ttf
+- Assets/Projects/Common/Fonts/Roboto-Italic.ttf
+- Assets/Projects/Common/Shaders/UnlitShadowReceive.shader
+- Assets/Projects/Common/Fonts/Roboto-Medium 1.ttf
+- Assets/Projects/Common/Fonts/Roboto-LightItalic.ttf
+Dependencies: []
