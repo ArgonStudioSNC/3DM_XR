@@ -249,7 +249,7 @@ PlayerSettings:
   AndroidTargetArchitectures: 5
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: W:/00_3DM-XR/keystore/user.keystore
+  AndroidKeystoreName: W:/keystore/android.keystore
   AndroidKeyaliasName: com.thirddimensionmedia.mixedreality
   AndroidBuildApkPerCpuArchitecture: 0
   AndroidTVCompatibility: 0
@@ -923,7 +923,7 @@ PlayerSettings:
   facebookXfbml: 0
   facebookFrictionlessRequests: 1
   apiCompatibilityLevel: 6
-  cloudProjectId: 8e313590-aee2-491d-b1da-b7af7720fe0a
+  cloudProjectId: 19e90896-02ac-4110-8282-8c7250865eca
   framebufferDepthMemorylessMode: 0
   projectName: 3DM_XR
   organizationId: argonstudio
