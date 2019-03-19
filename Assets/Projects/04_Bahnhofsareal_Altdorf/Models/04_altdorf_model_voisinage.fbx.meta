@@ -4,12 +4,21 @@ ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
+    100002: Cube.048
+    100004: Plane.002
     400000: //RootNode
+    400002: Cube.048
+    400004: Plane.002
     2100000: batiments
     2100002: toitures
     2300000: //RootNode
+    2300002: Cube.048
+    2300004: Plane.002
     3300000: //RootNode
+    3300002: Cube.048
+    3300004: Plane.002
     4300000: Plane.002
+    4300002: Cube.048
     2186277476908879412: ImportLogs
   externalObjects: {}
   materials:

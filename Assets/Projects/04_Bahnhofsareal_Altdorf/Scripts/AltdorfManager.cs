@@ -32,6 +32,8 @@ public class AltdorfManager : MonoBehaviour
     protected void Start()
     {
         Debug.Log("VERSION: " + Application.version);
+        FindObjectOfType<UIManager3DM>().ResetForVR();
+        FindObjectOfType<TransitionManager>().TransitionToAR(false);
     }
 
     protected void Update()

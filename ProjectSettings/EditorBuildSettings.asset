@@ -5,7 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Projects/00_3DMXR/Scenes/Menu.unity
     guid: 58024cfe6e98d455ca2a54aa8ce79c59
   - enabled: 0
@@ -26,7 +26,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Projects/03_SAAR/Scenes/SAAR.unity
     guid: c32445145e2b21344906c66513371904
-  - enabled: 0
+  - enabled: 1
     path: Assets/Projects/04_Bahnhofsareal_Altdorf/Scenes/BA_Altdorf.unity
     guid: c631fccef59a836478b41e882434ae90
   m_configObjects: {}

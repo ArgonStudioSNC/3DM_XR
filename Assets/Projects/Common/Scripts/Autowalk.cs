@@ -2,7 +2,6 @@
 using System;
 
 /* <summary>
- * Specific to Wegmatten project.
  * Allow to move the player when a click on nothing is detected in VR.
  * </summary>
  * */
