@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Projects/04_Bahnhofsareal_Altdorf/Scenes/BA_Altdorf.unity
     guid: c631fccef59a836478b41e882434ae90
+  - enabled: 0
+    path: Assets/Projects/04_Bahnhofsareal_Altdorf/Scenes/Altdorf_Groundplane.unity
+    guid: af25cd3b705d23747a0ba1504caa9b93
   m_configObjects: {}

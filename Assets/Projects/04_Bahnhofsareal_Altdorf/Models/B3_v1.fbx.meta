@@ -1,0 +1,169 @@
+fileFormatVersion: 2
+guid: 4c8cacf07b66efa468975e1d68bf9004
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    400000: //RootNode
+    2100000: M2_Beton
+    2100002: M9_Platre
+    2100004: M14_Bois_Blanc_Toitures
+    2100006: M10_Toitures_Tuiles
+    2100008: M13_Vert_Volet
+    2100010: M4_PVC_blanc
+    2100012: M5_Vitrage_non transparent
+    2100014: M1_Metal
+    2100016: M11_Carreaux_facade
+    2100018: M12_Beton_
+    2100020: M15_Metal_Cuivre
+    2100022: M16_Rideaux
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: B3_v1
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M10_Toitures_Tuiles
+    second: {fileID: 2100000, guid: 3bae509b32a6c3f4b8105db3e006544b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M11_Carreaux_facade
+    second: {fileID: 2100000, guid: f318444e8f8d30c4c96d021e4796dc63, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M12_Beton_
+    second: {fileID: 2100000, guid: 6a6c02902f1e2d84f93932f2a9859a60, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M13_Vert_Volet
+    second: {fileID: 2100000, guid: d39d040c456236a4283c8f48aa50f7ee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M14_Bois_Blanc_Toitures
+    second: {fileID: 2100000, guid: 209b1c78451e6bb4b9fd6afe0dcbf672, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M15_Metal_Cuivre
+    second: {fileID: 2100000, guid: 1cbb0a3833a25f0419b627c4b6ac1f42, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M16_Rideaux
+    second: {fileID: 2100000, guid: 28636374887a0334693c82521698cf69, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M1_Metal
+    second: {fileID: 2100000, guid: bf4964b8b0412a141846b55c2cd1942d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M2_Beton
+    second: {fileID: 2100000, guid: 1742ecf7934d1e445969c6dccaf7ceae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M4_PVC_blanc
+    second: {fileID: 2100000, guid: 6fff55a0f27689842b690e3860d0dea8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M5_Vitrage_non transparent
+    second: {fileID: 2100000, guid: c05442bd911de6b428c0b1cb0f3294ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M9_Platre
+    second: {fileID: 2100000, guid: c8a4ad8dad3ad3d4e9c525b1a14223e6, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
