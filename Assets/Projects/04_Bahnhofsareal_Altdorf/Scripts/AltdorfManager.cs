@@ -32,12 +32,13 @@ public class AltdorfManager : MonoBehaviour
     protected void Start()
     {
         Debug.Log("VERSION: " + Application.version);
-        FindObjectOfType<UIManager3DM>().ResetForVR();
+        //FindObjectOfType<UIManager3DM>().ResetForVR();
         FindObjectOfType<TransitionManager>().TransitionToAR(false);
     }
 
     protected void Update()
     {
+        /*
         // render the scene according to the current variables values
         // ======================
         foreach (Transform child in alternativesProjectsAR.transform)
@@ -45,6 +46,7 @@ public class AltdorfManager : MonoBehaviour
             child.gameObject.SetActive(false); // clean all
         }
         alternativesProjectsAR.transform.GetChild(mCurrentProjectID).gameObject.SetActive(true); // activate the correct project in AR
+        */
     }
 
     #endregion // MONOBEHAVIOUR_METHODS

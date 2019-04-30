@@ -23,7 +23,7 @@
     },
     {
       "name": "04_BA_Altdorf",
-      "firstScene": "BA_Altdorf",
+      "firstScene": "Altdorf-Menu",
       "requieredBundles": [
         "04_bahnhofsareal_altdorf_scenebundle"
       ]

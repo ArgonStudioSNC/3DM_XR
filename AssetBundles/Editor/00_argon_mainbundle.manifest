@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 3568106574
+CRC: 4278877787
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: a0376911194cbb903e035074e9ff6ce6
+    Hash: 477b77b4657c3b69405430a885d0937c
   TypeTreeHash:
     serializedVersion: 2
-    Hash: e87dbf8571acb99b61a8c3872f3764ee
+    Hash: b4bb0d79d7172b6113cc4c937de1f789
 HashAppended: 0
 ClassTypes:
 - Class: 21
@@ -36,6 +36,7 @@ Assets:
 - Assets/Projects/Common/Sprites/baseline-keyboard_arrow_up-android-black/res/drawable-xxxhdpi/baseline_keyboard_arrow_up_white_48.png
 - Assets/Projects/Common/Sprites/baseline-360-android-black/res/drawable-xxxhdpi/baseline_360_black_48.png
 - Assets/Projects/Common/Fonts/Roboto-Medium.ttf
+- Assets/Projects/Common/Fonts/Roboto-BoldItalic.ttf
 - Assets/Projects/Common/Fonts/Roboto-Black.ttf
 - Assets/Projects/Common/Fonts/Roboto-BlackItalic.ttf
 - Assets/Projects/Common/Sprites/baseline-keyboard_arrow_down-android-black/res/drawable-xxxhdpi/baseline_keyboard_arrow_down_black_48.png
