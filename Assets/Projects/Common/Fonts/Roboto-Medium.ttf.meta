@@ -11,12 +11,24 @@ TrueTypeFontImporter:
   fontName: Roboto
   fontNames:
   - Roboto
-  fallbackFontReferences: []
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: ab25ab231ecf57347b44b314cc0118f6, type: 3}
+  - {fileID: 12800000, guid: 5fa2d7d6bcb68f7438f423bff9ca4a7e, type: 3}
+  - {fileID: 12800000, guid: 535a7e67b128c104c9e931043021f193, type: 3}
+  - {fileID: 12800000, guid: dbbf8f787990ae64c9138eeb32ef07ed, type: 3}
+  - {fileID: 12800000, guid: 5f2d25c82881ac84b832ceea63f1d5c6, type: 3}
+  - {fileID: 12800000, guid: 834637f870872064492c67e5c9c562c9, type: 3}
+  - {fileID: 12800000, guid: 51aa4a5bcaae5874fb23c5e3a506d5fd, type: 3}
+  - {fileID: 12800000, guid: 4490f78b6d60d18449396f70f54dd13e, type: 3}
+  - {fileID: 12800000, guid: d32bc3dea2ebe134c9637bd2dc290ac5, type: 3}
+  - {fileID: 12800000, guid: 4f9322ee88313a446a96d1a6732d4d92, type: 3}
+  - {fileID: 12800000, guid: ad4b3bdf3a4a96b459615eed07205c58, type: 3}
+  - {fileID: 12800000, guid: 5fc31cefae8b3044f910e66ab7889c88, type: 3}
   customCharacters: 
   fontRenderingMode: 0
   ascentCalculationMode: 1
   useLegacyBoundsCalculation: 0
   shouldRoundAdvanceValue: 1
   userData: 
-  assetBundleName: 00_argon_mainbundle
+  assetBundleName: argonstudio/3dmxr_streamingasset
   assetBundleVariant: 

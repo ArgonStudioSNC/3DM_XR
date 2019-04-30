@@ -1,0 +1,47 @@
+ManifestFileVersion: 0
+CRC: 1652642163
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9a33c5c611310cbc3b5b095b687c6d16
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b4bb0d79d7172b6113cc4c937de1f789
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Projects/Common/Sprites/baseline-arrow_back-android-black/res/drawable-xxxhdpi/baseline_arrow_back_black_48.png
+- Assets/Projects/Common/Sprites/right-chevron@3x.png
+- Assets/Projects/Common/Sprites/left-chevron@3x.png
+- Assets/Projects/Common/Fonts/Roboto-ThinItalic.ttf
+- Assets/Projects/Common/Sprites/baseline-camera_front-android-black/res/drawable-xxxhdpi/baseline_camera_front_black_48.png
+- Assets/Projects/Common/Fonts/Roboto-Thin.ttf
+- Assets/Projects/Common/Fonts/Roboto-Bold.ttf
+- Assets/Projects/Common/Sprites/baseline-highlight-android-black/res/drawable-xxxhdpi/baseline_highlight_black_48.png
+- Assets/Projects/Common/Sprites/baseline-360-android-black/res/drawable-xxxhdpi/baseline_360_black_48.png
+- Assets/Projects/Common/Fonts/Roboto-Medium.ttf
+- Assets/Projects/Common/Fonts/Roboto-BoldItalic.ttf
+- Assets/Projects/Common/Fonts/Roboto-Black.ttf
+- Assets/Projects/Common/Fonts/Roboto-BlackItalic.ttf
+- Assets/Projects/Common/Sprites/baseline-fullscreen-android-black/res/drawable-xxxhdpi/baseline_fullscreen_black_48.png
+- Assets/Projects/Common/Sprites/baseline-fullscreen_exit-android-black/res/drawable-xxxhdpi/baseline_fullscreen_exit_black_48.png
+- Assets/Projects/Common/Fonts/Roboto-MediumItalic.ttf
+- Assets/Projects/Common/Sprites/baseline-more_horiz-android-black/res/drawable-xxxhdpi/baseline_more_horiz_black_48.png
+- Assets/Projects/Common/Fonts/Roboto-Regular.ttf
+- Assets/Projects/Common/Sprites/baseline-more_vert-android-black/res/drawable-xxxhdpi/baseline_more_vert_black_48.png
+- Assets/Editor/Vuforia/ImageTargetTextures/Argon_Main/00_3DM_Target_scaled.jpg
+- Assets/Projects/Common/Fonts/Roboto-Light.ttf
+- Assets/Projects/Common/Fonts/Roboto-Italic.ttf
+- Assets/Projects/Common/Fonts/Roboto-Medium 1.ttf
+- Assets/Projects/Common/Fonts/Roboto-LightItalic.ttf
+Dependencies: []

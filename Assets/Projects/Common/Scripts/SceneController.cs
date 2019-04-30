@@ -47,7 +47,7 @@ public class SceneController : MonoBehaviour
     {
         loadingScreen.Reset();
         loadingScreen.Show();
-        assetBundleManager.LoadAssetBundleFromStreamingAssets("00_argon_mainbundle");
+        assetBundleManager.LoadAssetBundleFromStreamingAssets("3dmxr_streamingasset");
 
         var jsonTextFile = Resources.Load<TextAsset>("Database/projects_DB");
         projectsList = JsonUtility.FromJson<JsonArrayWrapper<Project>>(jsonTextFile.text).array;
@@ -81,7 +81,7 @@ public class SceneController : MonoBehaviour
     {
         Debug.Log("Unloading current scene's assets and loading MainMenu...");
         UnloadProjects();
-        SceneManager.LoadScene("Menu");
+        SceneManager.LoadScene("3DMXR-Menu");
     }
 
     public void OpenProject(string projectName)

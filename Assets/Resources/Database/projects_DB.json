@@ -1,31 +1,37 @@
 {
   "array": [
     {
-      "name": "01_Wegmatten",
+      "name": "01-Wegmatten",
       "firstScene": "Wegmatten-Menu",
       "requieredBundles": [
-        "01_wegmatten_scenebundle"
+        "vuforiafeatures_assetbundle",
+        "bricksdevelopment_assetbundle",
+        "01-wegmatten_scenebundle"
       ]
     },
     {
-      "name": "02_Jolimont",
+      "name": "02-Jolimont",
       "firstScene": "Jolimont",
       "requieredBundles": [
-        "02_jolimont_scenebundle"
+        "vuforiafeatures_assetbundle",
+        "02-jolimont_scenebundle"
       ]
     },
     {
-      "name": "03_SAAR",
+      "name": "03-SAAR",
       "firstScene": "SAAR-Menu",
       "requieredBundles": [
-        "03_saar_scenebundle"
+        "vuforiafeatures_assetbundle",
+        "03-saar_scenebundle"
       ]
     },
     {
-      "name": "04_BA_Altdorf",
-      "firstScene": "Altdorf-Menu",
+      "name": "04-Bahnhofsareal-Altdorf",
+      "firstScene": "Bahnhofsareal-Altdorf-Menu",
       "requieredBundles": [
-        "04_bahnhofsareal_altdorf_scenebundle"
+        "vuforiafeatures_assetbundle",
+        "bricksdevelopment_assetbundle",
+        "04-bahnhofsareal-altdorf_scenebundle"
       ]
     }
   ]

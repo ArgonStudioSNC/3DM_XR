@@ -1,9 +1,9 @@
 fileFormatVersion: 2
 guid: 5ff6fe87765a2cc48bc3ca97d2faab37
 TextureImporter:
-  fileIDToRecycleName: {}
+  internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 7
+  serializedVersion: 10
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -120,13 +120,15 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: f820a9637e6dc924d970e04d8e8b0dc5
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
+    secondaryTextures: []
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
   userData: 
-  assetBundleName: 00_argon_mainbundle
+  assetBundleName: argonstudio/3dmxr_streamingasset
   assetBundleVariant: 
