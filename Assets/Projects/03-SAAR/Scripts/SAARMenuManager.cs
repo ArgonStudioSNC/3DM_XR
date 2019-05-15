@@ -23,6 +23,11 @@ public class SAARMenuManager : MonoBehaviour
 
     #region MONOBEHAVIOUR_METHODS
 
+    protected void Awake()
+    {
+        TransitionManagerGlobals.Instance.Reset();
+    }
+
     protected virtual void Start()
     {
         projectPanel.SetActive(true);

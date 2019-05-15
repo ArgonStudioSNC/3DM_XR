@@ -12,7 +12,7 @@ public class ARUserInterfaceScript : MonoBehaviour
     {
         foreach (Transform child in transform)
         {
-            child.gameObject.SetActive(!TransitionManager.isFullscreenMode);
+            child.gameObject.SetActive(!TransitionManager.Globals.IsFullscreenMode);
         }
     }
 

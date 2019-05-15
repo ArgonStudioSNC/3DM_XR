@@ -15,7 +15,8 @@ public class WegmattenMenuManager : MonoBehaviour
 
     protected void Start()
     {
-        TransitionManager.isFullscreenMode = true;
+        TransitionManager.Globals.InAR = true;
+        TransitionManager.Globals.IsFullscreenMode = true;
     }
 
     #endregion // MONOBEHAVIOUR_METHODS
@@ -33,8 +34,8 @@ public class WegmattenMenuManager : MonoBehaviour
         }
 
         // Set up the mobile/viewer mode and load the next scene.
-        TransitionManager.isFullscreenMode = fullscreen;
-        SceneController.Instance.LoadSceneByName("Wegmatten");
+        TransitionManager.Globals.IsFullscreenMode = fullscreen;
+        SceneLoader.Instance.LoadSceneByName("Wegmatten");
     }
 
     #endregion //PUBLIC_METHODS

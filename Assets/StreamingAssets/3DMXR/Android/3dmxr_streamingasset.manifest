@@ -1,30 +1,60 @@
 ManifestFileVersion: 0
-CRC: 1638489741
+CRC: 1581793979
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: d37ac07ae24a7ae7f4d83098e4a979a3
+    Hash: 4572a86646f1100e54dabb0d3ebdf69f
   TypeTreeHash:
     serializedVersion: 2
-    Hash: b4bb0d79d7172b6113cc4c937de1f789
+    Hash: 8482d3d5acb34febdf9dd60c1b902c1a
 HashAppended: 0
 ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
 - Class: 21
   Script: {instanceID: 0}
 - Class: 28
   Script: {instanceID: 0}
 - Class: 48
   Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: 1301386320, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: -98529514, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 69a85af1a4e131542bbd695def791e0c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 107a3e3b22aa00941a647ff92e1dfc75, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 6247ae0c437dbfb488e556e985d68d1e, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
 - Class: 128
   Script: {instanceID: 0}
 - Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 223
+  Script: {instanceID: 0}
+- Class: 224
   Script: {instanceID: 0}
 Assets:
 - Assets/Projects/Common/Sprites/baseline-arrow_back-android-black/res/drawable-xxxhdpi/baseline_arrow_back_black_48.png
 - Assets/Projects/Common/Sprites/right-chevron@3x.png
 - Assets/Projects/Common/Sprites/left-chevron@3x.png
+- Assets/Projects/Common/Sprites/spinner.png
 - Assets/Projects/Common/Fonts/Roboto-ThinItalic.ttf
 - Assets/Projects/Common/Sprites/baseline-camera_front-android-black/res/drawable-xxxhdpi/baseline_camera_front_black_48.png
+- Assets/Projects/Common/Prefabs/SceneLoader/SceneLoader.prefab
 - Assets/Projects/Common/Fonts/Roboto-Thin.ttf
 - Assets/Projects/Common/Fonts/Roboto-Bold.ttf
 - Assets/Projects/Common/Sprites/baseline-highlight-android-black/res/drawable-xxxhdpi/baseline_highlight_black_48.png

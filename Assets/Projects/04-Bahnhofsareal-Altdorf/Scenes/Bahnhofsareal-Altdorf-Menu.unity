@@ -218,8 +218,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1637705972}
-        m_MethodName: LoadSceneByName
+      - m_Target: {fileID: 282913539}
+        m_MethodName: HANDHELD_AR
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -228,7 +228,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: Bahnhofsareal-Altdorf-AR-Groundplane
           m_BoolArgument: 1
-        m_CallState: 1
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &70242277
@@ -401,16 +401,16 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 282913539}
-        m_MethodName: StartFullScreeenMode
-        m_Mode: 6
+        m_MethodName: VIEWER_VR
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Bahnhofsareal-Altdorf-VR
           m_BoolArgument: 0
-        m_CallState: 1
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &199666377
@@ -591,7 +591,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 282913537}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4b1a96ba2e9222b43aa086a62b3fae9f, type: 3}
+  m_Script: {fileID: 11500000, guid: b6c3cb7fc4e0d7141a9ab74ecf331755, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &282913540
@@ -1041,6 +1041,75 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1037350883}
   m_CullTransparentMesh: 0
+--- !u!1001 &1074886054
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4129203425261054133, guid: 1aa9ce043df51e14fb7f553838620f54,
+        type: 3}
+      propertyPath: m_Name
+      value: SceneLoader
+      objectReference: {fileID: 0}
+    - target: {fileID: 4129203425261054135, guid: 1aa9ce043df51e14fb7f553838620f54,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4129203425261054135, guid: 1aa9ce043df51e14fb7f553838620f54,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4129203425261054135, guid: 1aa9ce043df51e14fb7f553838620f54,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4129203425261054135, guid: 1aa9ce043df51e14fb7f553838620f54,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4129203425261054135, guid: 1aa9ce043df51e14fb7f553838620f54,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4129203425261054135, guid: 1aa9ce043df51e14fb7f553838620f54,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4129203425261054135, guid: 1aa9ce043df51e14fb7f553838620f54,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4129203425261054135, guid: 1aa9ce043df51e14fb7f553838620f54,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4129203425261054135, guid: 1aa9ce043df51e14fb7f553838620f54,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4129203425261054135, guid: 1aa9ce043df51e14fb7f553838620f54,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4129203425261054135, guid: 1aa9ce043df51e14fb7f553838620f54,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1aa9ce043df51e14fb7f553838620f54, type: 3}
 --- !u!1 &1085758233
 GameObject:
   m_ObjectHideFlags: 0
@@ -1283,16 +1352,16 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 282913539}
-        m_MethodName: StartFullScreeenMode
-        m_Mode: 6
+        m_MethodName: HANDHELD_VR
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Bahnhofsareal-Altdorf-VR
           m_BoolArgument: 1
-        m_CallState: 1
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1177257619
@@ -1398,7 +1467,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1637705973}
-  - component: {fileID: 1637705972}
   m_Layer: 0
   m_Name: EventManager
   m_TagString: Untagged
@@ -1406,18 +1474,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1637705972
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1637705971}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 107a3e3b22aa00941a647ff92e1dfc75, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &1637705973
 Transform:
   m_ObjectHideFlags: 0
@@ -1544,7 +1600,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1637705972}
+      - m_Target: {fileID: 8850479808626027671, guid: 1aa9ce043df51e14fb7f553838620f54,
+          type: 3}
         m_MethodName: LoadMainMenu
         m_Mode: 1
         m_Arguments:

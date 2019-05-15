@@ -5,7 +5,7 @@
  * Uses the screen resolution and screen dpi to get the screen diagonal size in inches. All device under 7 inches are PHONEs.
  * </summary>
  * */
-public static class RunningDeviceManager : object
+public static class RunningDeviceManager
 {
     #region PUBLIC_MEMBER_VARIABLES
 

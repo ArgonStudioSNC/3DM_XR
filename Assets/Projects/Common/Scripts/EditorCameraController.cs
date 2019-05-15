@@ -31,12 +31,12 @@ public class EditorCameraController : MonoBehaviour
 
     #region MONOBEHAVIOUR_METHODS
 
-    void Start()
+    protected void Start()
     {
         originalRotation = transform.localRotation;
     }
 
-    void Update()
+    protected void Update()
     {
         if (Input.anyKey)
         {

@@ -21,7 +21,7 @@ public class WegmattenGyroAction : GyroActionManager
         mTransitionManager = FindObjectOfType<TransitionManager>();
         if (!mTransitionManager) throw new NullReferenceException("Can not find any TransitionManager Object.");
 
-        disableTime = mTransitionManager.transitionDuration;
+        disableTime = 1.5f;
     }
 
     #endregion // MONOBEHAVIOUR_METHODS
@@ -35,9 +35,9 @@ public class WegmattenGyroAction : GyroActionManager
     override protected void RollLeftAction()
     {
         // only in viewer mode
-        if (!TransitionManager.isFullscreenMode)
+        if (!TransitionManager.Globals.IsFullscreenMode)
         {
-            SceneController.Instance.LoadSceneByName("Wegmatten-Menu");
+            SceneLoader.Instance.LoadSceneByName("Wegmatten-Menu");
         }
     }
 
@@ -46,9 +46,9 @@ public class WegmattenGyroAction : GyroActionManager
     // </summary>
     override protected void RollRightAction()
     {
-        if (!TransitionManager.isFullscreenMode)
+        if (!TransitionManager.Globals.IsFullscreenMode)
         {
-            mTransitionManager.TransitionToAR(!mTransitionManager.InAR);
+            mTransitionManager.SwitchMode(!TransitionManager.Globals.InAR);
         }
     }
 

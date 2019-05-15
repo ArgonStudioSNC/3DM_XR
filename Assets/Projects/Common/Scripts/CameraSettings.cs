@@ -20,12 +20,19 @@ public class CameraSettings : MonoBehaviour
 
 
     #region MONOBEHAVIOUR_METHODS
-    void Start()
+
+    protected void Awake()
     {
-        var vuforia = VuforiaARController.Instance;
-        vuforia.RegisterVuforiaStartedCallback(OnVuforiaStarted);
-        vuforia.RegisterOnPauseCallback(OnPaused);
+        VuforiaARController.Instance.RegisterVuforiaStartedCallback(OnVuforiaStarted);
+        VuforiaARController.Instance.RegisterOnPauseCallback(OnPaused);
     }
+
+    protected void OnDestroy()
+    {
+        VuforiaARController.Instance.UnregisterVuforiaStartedCallback(OnVuforiaStarted);
+        VuforiaARController.Instance.UnregisterOnPauseCallback(OnPaused);
+    }
+
     #endregion // MONOBEHAVIOUR_METHODS
 
 

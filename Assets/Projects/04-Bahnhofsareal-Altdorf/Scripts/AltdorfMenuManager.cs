@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 /* <summary>
  * Manager script of the AltdorfMenu scene.
@@ -15,7 +16,7 @@ public class AltdorfMenuManager : MonoBehaviour
 
     protected void Start()
     {
-        TransitionManager.isFullscreenMode = true;
+        TransitionManager.Globals.IsFullscreenMode = true;
     }
 
     #endregion // MONOBEHAVIOUR_METHODS
@@ -33,8 +34,9 @@ public class AltdorfMenuManager : MonoBehaviour
         }
 
         // Set up the mobile/viewer mode and load the next scene.
-        TransitionManager.isFullscreenMode = fullscreen;
-        SceneController.Instance.LoadSceneByName("Bahnhofsareal-Altdorf-VR");
+        TransitionManager.Globals.IsFullscreenMode = fullscreen;
+        //SceneController.Instance.LoadSceneByName("Bahnhofsareal-Altdorf-VR");
+        SceneManager.LoadSceneAsync("Bahnhofsareal-Altdorf-VR");
     }
 
     #endregion //PUBLIC_METHODS

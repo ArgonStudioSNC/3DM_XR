@@ -39,7 +39,7 @@ public class TouchEventManager : MonoBehaviour
 
     protected void Update()
     {
-        if (TransitionManager.isFullscreenMode) // in Device mode, use pointer position
+        if (TransitionManager.Globals.IsFullscreenMode) // in Device mode, use pointer position
         {
             if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
             {
@@ -68,7 +68,7 @@ public class TouchEventManager : MonoBehaviour
             objectHit = mRaycastHit.collider ? mRaycastHit.collider.gameObject : null;
         }
 
-        if (IsHit) Debug.Log("CLICK ACTION\nUIHit=" + UIHit + " | objectHit=" + (objectHit ? objectHit.name : "null"));
+        if (IsHit) Debug.Log("Click action \nUIHit=" + UIHit + " | objectHit=" + (objectHit ? objectHit.name : "null"));
     }
 
     #endregion // MONOBEHAVIOUR_METHODS
