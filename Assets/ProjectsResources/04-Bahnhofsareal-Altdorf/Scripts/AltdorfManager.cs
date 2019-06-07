@@ -22,7 +22,6 @@ public class AltdorfManager : MonoBehaviour
     protected void Awake()
     {
         StartCoroutine(UtilityHelper.LoadDevice("Vuforia"));
-        TransitionManager.InAR = false;
     }
 
     protected void Start()

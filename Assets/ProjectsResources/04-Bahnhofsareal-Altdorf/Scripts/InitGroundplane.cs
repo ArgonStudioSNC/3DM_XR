@@ -36,8 +36,7 @@ public class InitGroundplane : MonoBehaviour
     // on Vuforia Started
     private void SetupMixedRealityMode()
     {
-
-        MixedRealityController.Instance.SetMode(MixedRealityController.Mode.HANDHELD_AR_DEVICETRACKER);
+        //MixedRealityController.Instance.SetMode(MixedRealityController.Mode.HANDHELD_AR_DEVICETRACKER);
     }
 
     #endregion // PRIVATE_METHODS

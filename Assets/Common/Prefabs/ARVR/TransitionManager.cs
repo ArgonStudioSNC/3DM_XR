@@ -21,6 +21,7 @@ public class TransitionManager : MonoBehaviour, IFaderNotify
     private MixedRealityController.Mode m_currentMode = MixedRealityController.Mode.HANDHELD_AR;
     private MixedRealityContentManager m_mixedRealityContentManager;
     private Fader m_fader;
+    private bool m_positionalTrackingCompiliant = false;
 
     #endregion // PRIVATE_MEMBER_VARIABLES
 
@@ -101,16 +102,18 @@ public class TransitionManager : MonoBehaviour, IFaderNotify
             // in case they were previously stopped when moving to VR
             // before activating the AR mode
             if (m_currentMode == MixedRealityController.Mode.HANDHELD_AR ||
-                m_currentMode == MixedRealityController.Mode.VIEWER_AR)
+                m_currentMode == MixedRealityController.Mode.VIEWER_AR ||
+                m_currentMode == MixedRealityController.Mode.VIEWER_AR_DEVICETRACKER)
             {
                 Debug.Log("Switching to AR: activating datasets");
                 ActivateDataSets(true);
             }
 
+            // Setup the correct DeviceTracker
+            UpdateDeviceTracker();
+
             Camera.main.GetComponent<Camera>().clearFlags = InAR ? CameraClearFlags.SolidColor : CameraClearFlags.Skybox;
-
             MixedRealityController.Instance.SetMode(m_currentMode);
-
             m_mixedRealityContentManager.UpdateContent(m_currentMode);
 
             m_fader.FadeIn();
@@ -119,8 +122,8 @@ public class TransitionManager : MonoBehaviour, IFaderNotify
 
     void IFaderNotify.OnFadeInFinished()
     {
-        m_mixedRealityContentManager.ShowUI(true);
         VLog.Log("cyan", "IFaderNotify.OnFadeInFinished() called: " + gameObject.name);
+        m_mixedRealityContentManager.ShowUI(true);
     }
 
     #endregion // IFADERNOTIFY_CALLBACK_METHODS
@@ -142,10 +145,11 @@ public class TransitionManager : MonoBehaviour, IFaderNotify
     // on Vuforia Started
     private void SetupMixedRealityMode()
     {
+        UpdateDeviceTracker();
         Camera.main.GetComponent<Camera>().clearFlags = InAR ? CameraClearFlags.SolidColor : CameraClearFlags.Skybox;
         m_currentMode = GetMixedRealityMode();
-        MixedRealityController.Instance.SetMode(m_currentMode);
 
+        MixedRealityController.Instance.SetMode(m_currentMode);
         m_mixedRealityContentManager.UpdateContent(m_currentMode);
     }
 
@@ -157,6 +161,12 @@ public class TransitionManager : MonoBehaviour, IFaderNotify
     {
         if (InAR)
         {
+            if (m_positionalTrackingCompiliant)
+            {
+                return IsFullscreenMode ?
+                    MixedRealityController.Mode.HANDHELD_AR_DEVICETRACKER : MixedRealityController.Mode.VIEWER_AR_DEVICETRACKER;
+            }
+
             return IsFullscreenMode ?
                 MixedRealityController.Mode.HANDHELD_AR : MixedRealityController.Mode.VIEWER_AR;
         }
@@ -165,7 +175,7 @@ public class TransitionManager : MonoBehaviour, IFaderNotify
             MixedRealityController.Mode.HANDHELD_VR : MixedRealityController.Mode.VIEWER_VR;
     }
 
-    void ActivateDataSets(bool enableDataset)
+    private void ActivateDataSets(bool enableDataset)
     {
         ObjectTracker objectTracker = TrackerManager.Instance.GetTracker<ObjectTracker>();
 
@@ -188,6 +198,31 @@ public class TransitionManager : MonoBehaviour, IFaderNotify
 
         if (!objectTracker.IsActive)
             objectTracker.Start();
+    }
+
+    private void UpdateDeviceTracker()
+    {
+        if (m_positionalTrackingCompiliant)
+        {
+            if (InAR)
+            {
+                try
+                {
+                    PositionalDeviceTracker t = DeviceTrackerHelper.SetupPositionalDeviceTracker();
+                    t.Start();
+
+                }
+                catch (DeviceTrackerException e)
+                {
+                    m_positionalTrackingCompiliant = false;
+                    Debug.Log(e.ToString());
+                }
+            }
+            else
+            {
+                DeviceTrackerHelper.SetupRotationalDeviceTracker().Start();
+            }
+        }
     }
 
     #endregion // PRIVATE_METHODS

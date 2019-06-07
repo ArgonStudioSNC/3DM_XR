@@ -22,6 +22,8 @@ public class Autowalk : MonoBehaviour
     [Tooltip("From where the order to walk or stop walk comes.")]
     public TouchEventManager touchEventManager;
 
+    public Vector3 resetPosition;
+
     #endregion // PUBLIC_MEMBER_VARIABLES
 
 
@@ -30,6 +32,7 @@ public class Autowalk : MonoBehaviour
     private bool m_isWalking = false; // is the player currently walking
     private Transform m_cameraTransform = null;
     private Rigidbody m_rigidbody;
+    private bool m_gravityOn;
 
     #endregion // PRIVATE_MEMBER_VARIABLES
 
@@ -46,13 +49,18 @@ public class Autowalk : MonoBehaviour
 
         m_rigidbody = GetComponent<Rigidbody>();
         if (!m_rigidbody) Debug.Log("No Rigidbody component attached to this object.");
+
+
+        EnableGravity(false);
     }
 
     protected void Update()
     {
-        if (TransitionManager.InAR) m_isWalking = false; // you can only walk in VR
-        else
+        if (m_gravityOn != !TransitionManager.InAR) EnableGravity(!TransitionManager.InAR);
+
+        if (!TransitionManager.InAR)
         {
+            if (transform.position.y <= (yOffset - 0.5)) transform.position = resetPosition;
             // walk when the Trigger is used 
             if (touchEventManager.IsHit && !touchEventManager.UIHit)
             {
@@ -70,15 +78,36 @@ public class Autowalk : MonoBehaviour
                 Quaternion rotation = Quaternion.Euler(new Vector3(0, -transform.rotation.eulerAngles.y, 0));
                 transform.Translate(rotation * direction);
             }
+
+            if (m_rigidbody) m_rigidbody.velocity = new Vector3(0, 0, 0); // disable collision accelerations
+
+            if (freezeYPosition)
+            {
+                transform.position = new Vector3(transform.position.x, yOffset, transform.position.z); // fix the y coordinate
+            }
         }
 
-        if (m_rigidbody) m_rigidbody.velocity = new Vector3(0, 0, 0); // disable collision accelerations
-
-        if (freezeYPosition)
-        {
-            transform.position = new Vector3(transform.position.x, yOffset, transform.position.z); // fix the y coordinate
-        }
     }
 
     #endregion // MONOBEHAVIOUR_METHODS
+
+    private void EnableGravity(bool value)
+    {
+        if (m_rigidbody)
+        {
+            m_rigidbody.useGravity = value;
+            m_rigidbody.velocity = new Vector3(0, 0, 0); // disable collision accelerations
+        }
+
+        if (value)
+        {
+            transform.position = resetPosition;
+        }
+        else
+        {
+            m_isWalking = false; // you can only walk in VR
+        }
+
+        m_gravityOn = value;
+    }
 }

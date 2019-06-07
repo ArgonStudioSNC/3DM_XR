@@ -1,0 +1,264 @@
+fileFormatVersion: 2
+guid: 771657b0d26a38849b59c403fa20dee2
+ModelImporter:
+  serializedVersion: 25
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: birch 1_Optimized Bark Material
+    second: {fileID: 2100000, guid: 189d7d7142d0e6f448ac0e4863f7d5ee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: birch 1_Optimized Leaf Material
+    second: {fileID: 2100000, guid: b366c272a6bbb7249a8880999394e4e0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: birch 2_Optimized Bark Material
+    second: {fileID: 2100000, guid: 6ea1fb7acc8214e40ac31355b5cdfb19, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: birch 2_Optimized Leaf Material
+    second: {fileID: 2100000, guid: 701a6e1b3e47f2241841d39d581f83e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: birch 3_Optimized Bark Material
+    second: {fileID: 2100000, guid: f03a7dfedfafc94449c4b0734c597491, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: birch 3_Optimized Leaf Material
+    second: {fileID: 2100000, guid: c88c12d6d0a2ab04e97750e72b0392a7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cypress 1_Optimized Bark Material
+    second: {fileID: 2100000, guid: 4ff1d0c560e86e0439dcea37624fa92e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cypress 1_Optimized Leaf Material
+    second: {fileID: 2100000, guid: f915afc5315c4f842be82a8046a1fafb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: linden based 1_Optimized Bark Material
+    second: {fileID: 2100000, guid: f7887341499a5bb4cb050735cbc6d291, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: linden based 1_Optimized Leaf Material
+    second: {fileID: 2100000, guid: 60d83aa7c1de09742bda73607eed74d5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: linden based 2_Optimized Bark Material
+    second: {fileID: 2100000, guid: 2c865065458559e4aa3af762d4df0e8b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: linden based 2_Optimized Leaf Material
+    second: {fileID: 2100000, guid: 0093096040df6b94a9e54dd631642341, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: linden based 3_Optimized Bark Material
+    second: {fileID: 2100000, guid: bc8a0a10e8206934b9039f9623a3ec4a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: linden based 3_Optimized Leaf Material
+    second: {fileID: 2100000, guid: 4ce709e5eb94514479392c59ece6af5f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: maple 3_Optimized Bark Material
+    second: {fileID: 2100000, guid: ef317d8f06696484abda300b85fa2578, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: maple 3_Optimized Leaf Material
+    second: {fileID: 2100000, guid: 9f714a4d1c6ce3c48a2c9ffa063331c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: oak 2_Optimized Bark Material
+    second: {fileID: 2100000, guid: d99ea34fd154e6543974f527b99b42c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: oak 2_Optimized Leaf Material
+    second: {fileID: 2100000, guid: 1f47f8ee95b7c524db04a35557922c59, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: oak 4_Optimized Bark Material
+    second: {fileID: 2100000, guid: 64c52fe85a3ee334798314df2a57f225, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: oak 4_Optimized Leaf Material
+    second: {fileID: 2100000, guid: 68c5d88fcb77a744f8059fc21a656a77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: oak 7_Optimized Bark Material
+    second: {fileID: 2100000, guid: 53c410da16b6dbf4696e92856ba5442c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: oak 7_Optimized Leaf Material
+    second: {fileID: 2100000, guid: 7395b8dc097d47c4b9acb4e6da5fc622, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pine 1_Optimized Bark Material.001
+    second: {fileID: 2100000, guid: 0a9c63a8a5c9ed542bf1735fa9c8c1d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pine 1_Optimized Leaf Material.001
+    second: {fileID: 2100000, guid: ee37ea9d31e6e0145b6b2287ca989c6e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pine 2_Optimized Bark Material
+    second: {fileID: 2100000, guid: bcc11bb448f496a49a1afd3c2c548630, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pine 2_Optimized Leaf Material
+    second: {fileID: 2100000, guid: b9780834ce3800549b520fbdcaab567b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pine 3_Optimized Bark Material
+    second: {fileID: 2100000, guid: 143de03adbe821a43b8d4427d2fecbf9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pine 3_Optimized Leaf Material
+    second: {fileID: 2100000, guid: 359eceb794dad9f40b7a4a68598255bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: spruce 1_Optimized Bark Material
+    second: {fileID: 2100000, guid: a32b6354792d0674d86b4bc08c125470, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: spruce 1_Optimized Leaf Material
+    second: {fileID: 2100000, guid: ed4e086cab2dcb2458d6a432cc1440b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: spruce 4_Optimized Bark Material
+    second: {fileID: 2100000, guid: 6ee57e121d6ced54f8ddac044a594367, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: spruce 4_Optimized Leaf Material
+    second: {fileID: 2100000, guid: 2f14bf589db448d45bd59c76cbe5e32b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: spruce 5_Optimized Bark Material
+    second: {fileID: 2100000, guid: 28aab86a4cb35cc4ea1808209f713736, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: spruce 5_Optimized Leaf Material
+    second: {fileID: 2100000, guid: a14693439f2fa764bb407fb56f334ee8, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

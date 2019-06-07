@@ -13,9 +13,11 @@ using Vuforia;
 public class CameraSettings : MonoBehaviour
 {
     #region PRIVATE_MEMBERS
+    
     private bool mVuforiaStarted = false;
     private bool mAutofocusEnabled = true;
     private bool mFlashTorchEnabled = false;
+
     #endregion //PRIVATE_MEMBERS
 
 

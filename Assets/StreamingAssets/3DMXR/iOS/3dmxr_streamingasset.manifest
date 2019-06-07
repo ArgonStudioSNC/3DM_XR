@@ -1,47 +1,76 @@
 ManifestFileVersion: 0
-CRC: 1652642163
+CRC: 915377356
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 9a33c5c611310cbc3b5b095b687c6d16
+    Hash: ef453d2d029c125a499021b4acef9c3b
   TypeTreeHash:
     serializedVersion: 2
-    Hash: b4bb0d79d7172b6113cc4c937de1f789
+    Hash: 8482d3d5acb34febdf9dd60c1b902c1a
 HashAppended: 0
 ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
 - Class: 21
   Script: {instanceID: 0}
 - Class: 28
   Script: {instanceID: 0}
 - Class: 48
   Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: 1301386320, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: -98529514, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 69a85af1a4e131542bbd695def791e0c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 107a3e3b22aa00941a647ff92e1dfc75, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 6247ae0c437dbfb488e556e985d68d1e, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
 - Class: 128
   Script: {instanceID: 0}
 - Class: 213
   Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 223
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
 Assets:
-- Assets/Projects/Common/Sprites/baseline-arrow_back-android-black/res/drawable-xxxhdpi/baseline_arrow_back_black_48.png
-- Assets/Projects/Common/Sprites/right-chevron@3x.png
-- Assets/Projects/Common/Sprites/left-chevron@3x.png
-- Assets/Projects/Common/Fonts/Roboto-ThinItalic.ttf
-- Assets/Projects/Common/Sprites/baseline-camera_front-android-black/res/drawable-xxxhdpi/baseline_camera_front_black_48.png
-- Assets/Projects/Common/Fonts/Roboto-Thin.ttf
-- Assets/Projects/Common/Fonts/Roboto-Bold.ttf
-- Assets/Projects/Common/Sprites/baseline-highlight-android-black/res/drawable-xxxhdpi/baseline_highlight_black_48.png
-- Assets/Projects/Common/Sprites/baseline-360-android-black/res/drawable-xxxhdpi/baseline_360_black_48.png
-- Assets/Projects/Common/Fonts/Roboto-Medium.ttf
-- Assets/Projects/Common/Fonts/Roboto-BoldItalic.ttf
-- Assets/Projects/Common/Fonts/Roboto-Black.ttf
-- Assets/Projects/Common/Fonts/Roboto-BlackItalic.ttf
-- Assets/Projects/Common/Sprites/baseline-fullscreen-android-black/res/drawable-xxxhdpi/baseline_fullscreen_black_48.png
-- Assets/Projects/Common/Sprites/baseline-fullscreen_exit-android-black/res/drawable-xxxhdpi/baseline_fullscreen_exit_black_48.png
-- Assets/Projects/Common/Fonts/Roboto-MediumItalic.ttf
-- Assets/Projects/Common/Sprites/baseline-more_horiz-android-black/res/drawable-xxxhdpi/baseline_more_horiz_black_48.png
-- Assets/Projects/Common/Fonts/Roboto-Regular.ttf
-- Assets/Projects/Common/Sprites/baseline-more_vert-android-black/res/drawable-xxxhdpi/baseline_more_vert_black_48.png
-- Assets/Editor/Vuforia/ImageTargetTextures/Argon_Main/00_3DM_Target_scaled.jpg
-- Assets/Projects/Common/Fonts/Roboto-Light.ttf
-- Assets/Projects/Common/Fonts/Roboto-Italic.ttf
-- Assets/Projects/Common/Fonts/Roboto-Medium 1.ttf
-- Assets/Projects/Common/Fonts/Roboto-LightItalic.ttf
+- Assets/Common/Sprites/baseline-arrow_back-android-black/res/drawable-xxxhdpi/baseline_arrow_back_black_48.png
+- Assets/Common/Sprites/right-chevron@3x.png
+- Assets/Common/Sprites/left-chevron@3x.png
+- Assets/Common/Sprites/spinner.png
+- Assets/Common/Fonts/Roboto-ThinItalic.ttf
+- Assets/Common/Sprites/baseline-camera_front-android-black/res/drawable-xxxhdpi/baseline_camera_front_black_48.png
+- Assets/Common/Prefabs/SceneLoader/SceneLoader.prefab
+- Assets/Common/Fonts/Roboto-Thin.ttf
+- Assets/Common/Fonts/Roboto-Bold.ttf
+- Assets/Common/Sprites/baseline-highlight-android-black/res/drawable-xxxhdpi/baseline_highlight_black_48.png
+- Assets/Common/Sprites/baseline-360-android-black/res/drawable-xxxhdpi/baseline_360_black_48.png
+- Assets/Common/Fonts/Roboto-Medium.ttf
+- Assets/Common/Fonts/Roboto-BoldItalic.ttf
+- Assets/Common/Fonts/Roboto-Black.ttf
+- Assets/Common/Fonts/Roboto-BlackItalic.ttf
+- Assets/Common/Sprites/baseline-fullscreen-android-black/res/drawable-xxxhdpi/baseline_fullscreen_black_48.png
+- Assets/Common/Sprites/baseline-fullscreen_exit-android-black/res/drawable-xxxhdpi/baseline_fullscreen_exit_black_48.png
+- Assets/Common/Fonts/Roboto-MediumItalic.ttf
+- Assets/Common/Sprites/baseline-more_horiz-android-black/res/drawable-xxxhdpi/baseline_more_horiz_black_48.png
+- Assets/Common/Fonts/Roboto-Regular.ttf
+- Assets/Common/Sprites/baseline-more_vert-android-black/res/drawable-xxxhdpi/baseline_more_vert_black_48.png
+- Assets/Common/Fonts/Roboto-Light.ttf
+- Assets/Common/Fonts/Roboto-Italic.ttf
+- Assets/Common/Fonts/Roboto-Medium 1.ttf
+- Assets/Common/Fonts/Roboto-LightItalic.ttf
 Dependencies: []

@@ -34,9 +34,11 @@ public class MixedRealityContentManager : MonoBehaviour
         switch (mode)
         {
             case MixedRealityController.Mode.HANDHELD_AR:
+            case MixedRealityController.Mode.HANDHELD_AR_DEVICETRACKER:
                 EnableContentSet(handheldARContent, true);
                 break;
             case MixedRealityController.Mode.VIEWER_AR:
+            case MixedRealityController.Mode.VIEWER_AR_DEVICETRACKER:
                 EnableContentSet(viewerARContent, true);
                 break;
             case MixedRealityController.Mode.HANDHELD_VR:

@@ -9,18 +9,9 @@ public class MenuManager : MonoBehaviour
 {
     #region MONOBEHAVIOUR_METHODS
 
-    protected void Awake()
-    {
-        TransitionManager.InAR = true;
-        TransitionManager.IsFullscreenMode = true;
-    }
-
     protected void Start()
     {
-        GameObject.Find("LoadingScreen").SetActive(true);
         StartCoroutine(UtilityHelper.LoadDevice("Vuforia"));
-        TransitionManager.InAR = true;
-        TransitionManager.IsFullscreenMode = true;
     }
 
     #endregion // MONOBEHAVIOUR_METHODS
