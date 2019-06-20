@@ -33,6 +33,14 @@
         "bricksdevelopment_assetbundle",
         "04-bahnhofsareal-altdorf_scenebundle"
       ]
+    },
+    {
+      "name": "07-JardinduParadis",
+      "firstScene": "JardinduParadis",
+      "requieredBundles": [
+        "vuforiafeatures_assetbundle",
+        "07-jardinduparadis_scenebundle"
+      ]
     }
   ]
 }

@@ -32,4 +32,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/ProjectsResources/04-Bahnhofsareal-Altdorf/Scenes/Bahnhofsareal-Altdorf-MR.unity
     guid: c631fccef59a836478b41e882434ae90
+  - enabled: 0
+    path: Assets/ProjectsResources/07-JardinduParadis/Scenes/JardinduParadis.unity
+    guid: d5ed8b76db24f794e8487c4bcddb6b28
   m_configObjects: {}

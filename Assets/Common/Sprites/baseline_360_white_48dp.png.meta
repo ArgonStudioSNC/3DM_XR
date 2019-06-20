@@ -108,7 +108,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: fd317ae41620e1d47af26a4085c1f30f
     internalID: 0
     vertices: []
     indices: 
@@ -119,5 +119,5 @@ TextureImporter:
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
   userData: 
-  assetBundleName: 
+  assetBundleName: argonstudio/3dmxr_streamingasset
   assetBundleVariant: 

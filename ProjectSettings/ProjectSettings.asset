@@ -81,6 +81,7 @@ PlayerSettings:
   usePlayerLog: 1
   bakeCollisionMeshes: 0
   forceSingleInstance: 0
+  useFlipModelSwapchain: 1
   resizableWindow: 0
   useMacAppStoreValidation: 0
   macAppStoreCategory: public.app-category.games
@@ -120,7 +121,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  bundleVersion: 1.10(05)
+  bundleVersion: 1.10(06)
   preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
@@ -165,7 +166,7 @@ PlayerSettings:
     iPhone: com.ThirdDimensionMedia.MixedReality
   buildNumber:
     iPhone: 900011004
-  AndroidBundleVersionCode: 210011005
+  AndroidBundleVersionCode: 210011006
   AndroidMinSdkVersion: 21
   AndroidTargetSdkVersion: 0
   AndroidPreferredInstallLocation: 1
