@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using Vuforia;
 
 /* <summary>
  * Manager class of the MainMenu screen of 3DM_XR application.

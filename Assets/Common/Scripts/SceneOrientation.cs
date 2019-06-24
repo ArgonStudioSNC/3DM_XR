@@ -6,6 +6,7 @@ countries.
 ===============================================================================*/
 
 using UnityEngine;
+using Vuforia;
 
 /* <summary>
  * Force the orientation of the current scene.
@@ -33,7 +34,19 @@ public class SceneOrientation : MonoBehaviour
 
     protected void Awake()
     {
-        SetSceneOrientation();
+        if (VuforiaRuntime.Instance.InitializationState != VuforiaRuntime.InitState.INITIALIZED)
+        {
+            VuforiaARController.Instance.RegisterVuforiaInitializedCallback(SetSceneOrientation);
+        }
+        else
+        {
+            SetSceneOrientation();
+        }
+    }
+
+    protected void OnDestroy()
+    {
+        VuforiaARController.Instance.UnregisterVuforiaInitializedCallback(SetSceneOrientation);
     }
 
     #endregion // MONOBEHAVIOUR_METHODS

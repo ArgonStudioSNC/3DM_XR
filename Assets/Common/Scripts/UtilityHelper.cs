@@ -75,7 +75,7 @@ public static class UtilityHelper
             XRSettings.LoadDeviceByName(newDevice);
             yield return null;
             XRSettings.enabled = true;
-            Screen.orientation = ScreenOrientation.Portrait; // some XR Device initialization induce landscape orientation
+            Screen.orientation = ScreenOrientation.Portrait;
         }
     }
 }

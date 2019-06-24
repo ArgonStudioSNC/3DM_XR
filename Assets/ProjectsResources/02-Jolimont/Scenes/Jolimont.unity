@@ -2164,6 +2164,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SceneLoader
       objectReference: {fileID: 0}
+    - target: {fileID: 4129203425261054132, guid: 1aa9ce043df51e14fb7f553838620f54,
+        type: 3}
+      propertyPath: EditorDebugMode
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4129203425261054135, guid: 1aa9ce043df51e14fb7f553838620f54,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3020,6 +3025,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1464146080}
   - component: {fileID: 1464146081}
+  - component: {fileID: 1464146082}
   m_Layer: 0
   m_Name: JolimontManager
   m_TagString: Untagged
@@ -3055,6 +3061,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sunPositionText: {fileID: 103197240}
   lights: {fileID: 1321801450}
+--- !u!114 &1464146082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1464146079}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b38c2d13f38950b41b2ec7d37b5f45c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneOrientation: 1
 --- !u!1 &1495907785
 GameObject:
   m_ObjectHideFlags: 0

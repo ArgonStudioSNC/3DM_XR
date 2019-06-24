@@ -20,6 +20,7 @@ public class CameraSettings : MonoBehaviour
 
     #endregion //PRIVATE_MEMBERS
 
+    string text;
 
     #region MONOBEHAVIOUR_METHODS
 
@@ -136,6 +137,7 @@ public class CameraSettings : MonoBehaviour
 
 
     #region PRIVATE_METHODS
+
     private void OnVuforiaStarted()
     {
         mVuforiaStarted = true;
