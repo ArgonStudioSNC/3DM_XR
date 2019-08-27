@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 1570131990
+CRC: 4284607755
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 5e708f89beab4c21727ca06f94667afb
+    Hash: 0c35fada3aef813269ba9ed3cd3491b5
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 8482d3d5acb34febdf9dd60c1b902c1a
+    Hash: 2d5317f32d3360541c27dad47a7a3d14
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -20,21 +20,21 @@ ClassTypes:
 - Class: 48
   Script: {instanceID: 0}
 - Class: 114
-  Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
 - Class: 114
-  Script: {fileID: 1301386320, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
 - Class: 114
-  Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-- Class: 114
-  Script: {fileID: -98529514, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-- Class: 114
-  Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 69a85af1a4e131542bbd695def791e0c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 107a3e3b22aa00941a647ff92e1dfc75, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 6247ae0c437dbfb488e556e985d68d1e, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 - Class: 128
@@ -66,9 +66,11 @@ Assets:
 - Assets/Common/Sprites/baseline-fullscreen-android-black/res/drawable-xxxhdpi/baseline_fullscreen_black_48.png
 - Assets/Common/Sprites/baseline-fullscreen_exit-android-black/res/drawable-xxxhdpi/baseline_fullscreen_exit_black_48.png
 - Assets/Common/Fonts/Roboto-MediumItalic.ttf
+- Assets/Common/Sprites/baseline_360_white_48dp.png
 - Assets/Common/Sprites/baseline-more_horiz-android-black/res/drawable-xxxhdpi/baseline_more_horiz_black_48.png
 - Assets/Common/Fonts/Roboto-Regular.ttf
 - Assets/Common/Sprites/baseline-more_vert-android-black/res/drawable-xxxhdpi/baseline_more_vert_black_48.png
+- Assets/Common/Sprites/baseline_arrow_back_white_48dp.png
 - Assets/Common/Fonts/Roboto-Light.ttf
 - Assets/Common/Fonts/Roboto-Italic.ttf
 - Assets/Common/Fonts/Roboto-Medium 1.ttf

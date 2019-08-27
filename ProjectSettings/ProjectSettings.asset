@@ -122,7 +122,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  bundleVersion: 1.1007
+  bundleVersion: 1.11(01)
   preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
@@ -168,7 +168,7 @@ PlayerSettings:
     iPhone: com.ThirdDimensionMedia.MixedReality
   buildNumber:
     iPhone: 900011007
-  AndroidBundleVersionCode: 210011007
+  AndroidBundleVersionCode: 210011101
   AndroidMinSdkVersion: 21
   AndroidTargetSdkVersion: 0
   AndroidPreferredInstallLocation: 1
