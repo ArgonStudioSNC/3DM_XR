@@ -1,0 +1,239 @@
+fileFormatVersion: 2
+guid: 5c6c3c8830b5e3d48b885b5f18ff0178
+ModelImporter:
+  serializedVersion: 25
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: A10_Asphalt_type_2
+    second: {fileID: 2100000, guid: 5975252226d7d314585807a0de0915ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: A16_Pave_rectangles
+    second: {fileID: 2100000, guid: f12f40cb8752a6e44a5036c5af608e66, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: A18_Herbes_type_2
+    second: {fileID: 2100000, guid: 04dc3e70248c10b44988c8afc398f26c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: A1_Beton
+    second: {fileID: 2100000, guid: c20d4d5946cb7b94ab2466c1aae62d1a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: A5_Metal
+    second: {fileID: 2100000, guid: e6275c2705a700440a197cedabff27de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M13_Vert_Volet
+    second: {fileID: 2100000, guid: d39d040c456236a4283c8f48aa50f7ee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M15_Metal_Cuivre
+    second: {fileID: 2100000, guid: 1cbb0a3833a25f0419b627c4b6ac1f42, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M16_Rideaux
+    second: {fileID: 2100000, guid: 28636374887a0334693c82521698cf69, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M1_Metal
+    second: {fileID: 2100000, guid: bf4964b8b0412a141846b55c2cd1942d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M22_Beton
+    second: {fileID: 2100000, guid: 1d7e217183ab88c44aa85ad99cb16270, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M24_Platre
+    second: {fileID: 2100000, guid: d3745358296673a4e88e7a48b5576a08, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M27_Metal_Noir
+    second: {fileID: 2100000, guid: 3d32d6046f83b7c41866b220897ad3fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M30_Platre_Jaune
+    second: {fileID: 2100000, guid: cc7df4b58dbdcb140b1ea00bf2b5308f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M32_Bois_Blanc
+    second: {fileID: 2100000, guid: 89d740f13539e3b40ab81dae5ffe98ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M40_Beton_Dirty
+    second: {fileID: 2100000, guid: 8542aa9c15eaafa4da2ddd742e7ae3fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M43_Tuiles_Gris
+    second: {fileID: 2100000, guid: e8733c2abc6b2b045aa3b11f83c57b44, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M4_PVC_blanc
+    second: {fileID: 2100000, guid: 6fff55a0f27689842b690e3860d0dea8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M56_Toitures_Tuiles_Noir
+    second: {fileID: 2100000, guid: d45043cdd8cd7014886fba74ce991950, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M5_Vitrage_non transparent
+    second: {fileID: 2100000, guid: c05442bd911de6b428c0b1cb0f3294ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M67_Metal_Vert
+    second: {fileID: 2100000, guid: 30bc89f4d5b5b9645bf91d1a469dd053, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M76_PVC_Jaune_Briques
+    second: {fileID: 2100000, guid: a5a02411f675fd54da81bbb8e6a72d4f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: maple 3_Optimized Bark Material
+    second: {fileID: 2100000, guid: ef317d8f06696484abda300b85fa2578, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: maple 3_Optimized Leaf Material
+    second: {fileID: 2100000, guid: 9f714a4d1c6ce3c48a2c9ffa063331c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: oak 2_Optimized Bark Material
+    second: {fileID: 2100000, guid: d99ea34fd154e6543974f527b99b42c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: oak 2_Optimized Leaf Material
+    second: {fileID: 2100000, guid: 1f47f8ee95b7c524db04a35557922c59, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: oak 4_Optimized Bark Material
+    second: {fileID: 2100000, guid: 64c52fe85a3ee334798314df2a57f225, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: oak 4_Optimized Leaf Material
+    second: {fileID: 2100000, guid: 68c5d88fcb77a744f8059fc21a656a77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pine 2_Optimized Bark Material
+    second: {fileID: 2100000, guid: bcc11bb448f496a49a1afd3c2c548630, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pine 2_Optimized Leaf Material
+    second: {fileID: 2100000, guid: b9780834ce3800549b520fbdcaab567b, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

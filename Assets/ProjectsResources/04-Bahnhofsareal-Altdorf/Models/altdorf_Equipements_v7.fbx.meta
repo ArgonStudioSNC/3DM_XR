@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5341b467a67ecb14f98ebd723166c89e
+guid: d7f970bd66457b14bb497ef4903f518d
 ModelImporter:
   serializedVersion: 25
   internalIDToNameTable: []
@@ -52,28 +52,13 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: M27_Metal_Noir
-    second: {fileID: 2100000, guid: 3d32d6046f83b7c41866b220897ad3fe, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: M31_Bois_Fonce
-    second: {fileID: 2100000, guid: 0c3a32032903cb74b8bc06418fec8d48, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
       name: M37_PVC_bleu
     second: {fileID: 2100000, guid: 9cc5b30d364d0d646b75c080159e8608, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: M4_PVC_blanc
-    second: {fileID: 2100000, guid: 6fff55a0f27689842b690e3860d0dea8, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: M58_PVC_jaune
-    second: {fileID: 2100000, guid: 834fda444991fb549a8dbe16e5e6be94, type: 2}
+      name: No Name
+    second: {fileID: 2100000, guid: 8a9c7c87b5de3c64ba170cbcc9bab3bc, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -153,7 +138,7 @@ ModelImporter:
     globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 0

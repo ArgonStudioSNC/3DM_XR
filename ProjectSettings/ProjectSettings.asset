@@ -3,7 +3,7 @@
 --- !u!129 &1
 PlayerSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 16
+  serializedVersion: 18
   productGUID: 37eae81389f8a4b3ba2f28c46d0cf641
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
@@ -54,8 +54,8 @@ PlayerSettings:
   m_StackTraceTypes: 010000000100000001000000010000000100000001000000
   iosShowActivityIndicatorOnLoading: -1
   androidShowActivityIndicatorOnLoading: 0
-  iosAppInBackgroundBehavior: 0
   displayResolutionDialog: 1
+  iosUseCustomAppBackgroundBehavior: 0
   iosAllowHTTPDownload: 1
   allowedAutorotateToPortrait: 1
   allowedAutorotateToPortraitUpsideDown: 0
@@ -67,6 +67,7 @@ PlayerSettings:
   disableDepthAndStencilBuffers: 0
   androidStartInFullscreen: 1
   androidRenderOutsideSafeArea: 1
+  androidUseSwappy: 0
   androidBlitType: 0
   defaultIsNativeResolution: 1
   macRetinaSupport: 1
@@ -121,7 +122,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  bundleVersion: 1.10(06)
+  bundleVersion: 1.1007
   preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
@@ -151,6 +152,7 @@ PlayerSettings:
     oculus:
       sharedDepthBuffer: 0
       dashSupport: 0
+      lowOverheadMode: 0
     enable360StereoCapture: 0
   isWsaHolographicRemotingEnabled: 0
   protectGraphicsMemory: 0
@@ -165,8 +167,8 @@ PlayerSettings:
     Android: com.ThirdDimensionMedia.MixedReality
     iPhone: com.ThirdDimensionMedia.MixedReality
   buildNumber:
-    iPhone: 900011004
-  AndroidBundleVersionCode: 210011006
+    iPhone: 900011007
+  AndroidBundleVersionCode: 210011007
   AndroidMinSdkVersion: 21
   AndroidTargetSdkVersion: 0
   AndroidPreferredInstallLocation: 1
@@ -273,6 +275,8 @@ PlayerSettings:
     height: 180
     banner: {fileID: 0}
   androidGamepadSupportLevel: 0
+  AndroidValidateAppBundleSize: 1
+  AndroidAppBundleSizeToValidate: 150
   resolutionDialogBanner: {fileID: 0}
   m_BuildTargetIcons:
   - m_BuildTarget: 
@@ -543,18 +547,10 @@ PlayerSettings:
     m_Devices:
     - None
     - Vuforia
-  m_BuildTargetEnableVuforiaSettings:
-  - m_BuildTarget: Standalone
-    m_Enabled: 1
-  - m_BuildTarget: iPhone
-    m_Enabled: 1
-  - m_BuildTarget: Android
-    m_Enabled: 1
-  - m_BuildTarget: Windows Store Apps
-    m_Enabled: 1
   openGLRequireES31: 0
   openGLRequireES31AEP: 0
   openGLRequireES32: 0
+  vuforiaEnabled: 1
   m_TemplateCustomTags: {}
   mobileMTRendering:
     Android: 1
@@ -773,6 +769,7 @@ PlayerSettings:
   splashScreenBackgroundSourceLandscape: {fileID: 21300000, guid: 9fd2f2b979319804b96ee230b4a9c184,
     type: 3}
   splashScreenBackgroundSourcePortrait: {fileID: 0}
+  blurSplashScreenBackground: 1
   spritePackerPolicy: 
   webGLMemorySize: 256
   webGLExceptionSupport: 1
@@ -804,6 +801,7 @@ PlayerSettings:
     26: UNITY_POST_PROCESSING_STACK_V2
     27: UNITY_POST_PROCESSING_STACK_V2
     28: UNITY_POST_PROCESSING_STACK_V2
+    29: UNITY_POST_PROCESSING_STACK_V2
   platformArchitecture: {}
   scriptingBackend:
     Android: 1

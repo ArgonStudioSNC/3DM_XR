@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 915377356
+CRC: 655965608
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: ef453d2d029c125a499021b4acef9c3b
+    Hash: 88c74867dee2f8dd35c10d8c5fd81794
   TypeTreeHash:
     serializedVersion: 2
     Hash: 8482d3d5acb34febdf9dd60c1b902c1a
@@ -66,9 +66,11 @@ Assets:
 - Assets/Common/Sprites/baseline-fullscreen-android-black/res/drawable-xxxhdpi/baseline_fullscreen_black_48.png
 - Assets/Common/Sprites/baseline-fullscreen_exit-android-black/res/drawable-xxxhdpi/baseline_fullscreen_exit_black_48.png
 - Assets/Common/Fonts/Roboto-MediumItalic.ttf
+- Assets/Common/Sprites/baseline_360_white_48dp.png
 - Assets/Common/Sprites/baseline-more_horiz-android-black/res/drawable-xxxhdpi/baseline_more_horiz_black_48.png
 - Assets/Common/Fonts/Roboto-Regular.ttf
 - Assets/Common/Sprites/baseline-more_vert-android-black/res/drawable-xxxhdpi/baseline_more_vert_black_48.png
+- Assets/Common/Sprites/baseline_arrow_back_white_48dp.png
 - Assets/Common/Fonts/Roboto-Light.ttf
 - Assets/Common/Fonts/Roboto-Italic.ttf
 - Assets/Common/Fonts/Roboto-Medium 1.ttf

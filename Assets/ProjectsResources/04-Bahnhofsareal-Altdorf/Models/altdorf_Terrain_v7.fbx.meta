@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: feec6abbdfb7beb4dab24d0de869605a
+guid: 4c4f47759bfe1e44790905f5e7ae375f
 ModelImporter:
   serializedVersion: 25
   internalIDToNameTable: []
@@ -92,18 +92,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: M26_Planches_Blanc
-    second: {fileID: 2100000, guid: 23fe7df09a5afc445aa5cc58ea3c526a, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
       name: M2_Beton
     second: {fileID: 2100000, guid: 1742ecf7934d1e445969c6dccaf7ceae, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: M33_Platre_rouge
-    second: {fileID: 2100000, guid: 362e5dd759871a64bbe7499f0802b5b9, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -112,23 +102,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: M4_PVC_blanc
-    second: {fileID: 2100000, guid: 6fff55a0f27689842b690e3860d0dea8, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: M51_Bois_Planches_fonce
-    second: {fileID: 2100000, guid: 13e3820d21b53f44da0112d21cb3ddd9, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
       name: M8_PVC_gris
     second: {fileID: 2100000, guid: fb8979d4679e2f04880bc389d38c9f36, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: M9_Platre
-    second: {fileID: 2100000, guid: c8a4ad8dad3ad3d4e9c525b1a14223e6, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -213,7 +188,7 @@ ModelImporter:
     globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 0
