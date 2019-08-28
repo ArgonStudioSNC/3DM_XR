@@ -156,7 +156,7 @@ PlayerSettings:
     enable360StereoCapture: 0
   isWsaHolographicRemotingEnabled: 0
   protectGraphicsMemory: 0
-  enableFrameTimingStats: 0
+  enableFrameTimingStats: 1
   useHDRDisplay: 0
   m_ColorGamuts: 00000000
   targetPixelDensity: 30
@@ -167,7 +167,7 @@ PlayerSettings:
     Android: com.ThirdDimensionMedia.MixedReality
     iPhone: com.ThirdDimensionMedia.MixedReality
   buildNumber:
-    iPhone: 900011007
+    iPhone: 900011101
   AndroidBundleVersionCode: 210011101
   AndroidMinSdkVersion: 21
   AndroidTargetSdkVersion: 0
@@ -258,7 +258,7 @@ PlayerSettings:
   clonedFromGUID: 56e7a2d3a00f33d44bdd161b773c35b5
   templatePackageId: com.unity.template.3d@1.0.0
   templateDefaultScene: Assets/Scenes/SampleScene.unity
-  AndroidTargetArchitectures: 7
+  AndroidTargetArchitectures: 3
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
   AndroidKeystoreName: W:/keystore/android.keystore
