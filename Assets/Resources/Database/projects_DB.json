@@ -41,6 +41,14 @@
         "vuforiafeatures_assetbundle",
         "07-jardinduparadis_scenebundle"
       ]
+    },
+    {
+      "name": "Christmas-2019",
+      "firstScene": "Christmas-2019",
+      "requieredBundles": [
+        "vuforiafeatures_assetbundle",
+        "christmas-2019_scenebundle"
+      ]
     }
   ]
 }

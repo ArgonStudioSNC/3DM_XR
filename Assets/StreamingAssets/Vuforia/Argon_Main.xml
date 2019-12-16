@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
+    <ImageTarget name="Christmas-2019_Target" size="0.210000 0.148470" />
     <ImageTarget name="07_jardinduparadis-appartement_Target" size="0.187000 0.123739" />
     <ImageTarget name="07_jardinduparadis-situation_Target" size="0.090000 0.075718" />
     <ImageTarget name="04_Bahnhofsareal-Altdorf" size="0.420000 0.283756" />

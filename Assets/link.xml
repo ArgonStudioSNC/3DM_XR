@@ -16,6 +16,8 @@
     <type fullname="UnityEngine.RuntimeAnimatorController" preserve="all"/>
     <!--class with ID 136-->
     <type fullname="UnityEngine.CapsuleCollider" preserve="all"/>
+    <!--class with ID 137-->
+    <type fullname="UnityEngine.SkinnedMeshRenderer" preserve="all"/>
     <!--class with ID 198-->
     <type fullname="UnityEngine.ParticleSystem" preserve="all"/>
     <!--class with ID 199-->

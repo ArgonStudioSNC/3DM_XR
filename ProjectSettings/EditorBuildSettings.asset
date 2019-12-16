@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/ProjectsResources/Christmas-2019/Scenes/Christmas-2019-Intro.unity
+    guid: a1f7d135229e8994aaca9adb2fc2013a
+  - enabled: 1
     path: Assets/ProjectsResources/00-3DMXR/Scenes/3DMXR-Menu.unity
     guid: 58024cfe6e98d455ca2a54aa8ce79c59
   - enabled: 0
@@ -35,4 +38,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/ProjectsResources/07-JardinduParadis/Scenes/JardinduParadis.unity
     guid: d5ed8b76db24f794e8487c4bcddb6b28
+  - enabled: 0
+    path: Assets/ProjectsResources/Christmas-2019/Scenes/Christmas-2019.unity
+    guid: f64f645c86609a1428f9bb9e7232ccf2
   m_configObjects: {}
