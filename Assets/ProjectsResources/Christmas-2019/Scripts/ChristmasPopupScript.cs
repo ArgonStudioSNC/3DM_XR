@@ -9,6 +9,7 @@ using System;
 
 public class ChristmasPopupScript : MonoBehaviour
 {
+    public GameObject introText;
     public Transform getCardButton;
     public Transform addressForm;
     public Text editFieldText;
@@ -19,11 +20,6 @@ public class ChristmasPopupScript : MonoBehaviour
     private bool m_isAddressFieldShown = false;
 
 
-    protected void Awake()
-    {
-        if (DateTime.Now > new DateTime(2020, 2, 1)) SkipChristmas();
-    }
-
     protected void Start()
     {
         m_messageText = getCardButton.GetComponentInChildren<Text>();
@@ -33,6 +29,7 @@ public class ChristmasPopupScript : MonoBehaviour
     protected void OnGUI()
     {
         transform.localPosition = m_originalPosition;
+        introText.SetActive(true);
         if (m_isAddressFieldShown)
         {
             TouchScreenKeyboard touchScreenKeyboard = addressForm.GetComponent<InputField>().touchScreenKeyboard;
@@ -41,8 +38,9 @@ public class ChristmasPopupScript : MonoBehaviour
             int keyboardHeight = MobileUtilities.GetKeyboardHeight(false);
             if (keyboardHeight > 0)
             {
+                introText.SetActive(false);
                 Button button = addressForm.GetComponentInChildren<Button>();
-                float sendButtonPosY = button.transform.position.y - (button.transform.GetComponent<RectTransform>().rect.height + 20);
+                float sendButtonPosY = button.transform.position.y - (button.transform.GetComponent<RectTransform>().rect.height + 30);
                 transform.localPosition = new Vector3(transform.localPosition.x, keyboardHeight - sendButtonPosY, transform.localPosition.z);
             }
         }
@@ -66,7 +64,7 @@ public class ChristmasPopupScript : MonoBehaviour
         m_isAddressFieldShown = !m_isAddressFieldShown;
     }
 
-    public void SkipChristmas()
+    public void LoadMainMenu()
     {
         SceneManager.LoadScene("3DMXR-Menu");
     }

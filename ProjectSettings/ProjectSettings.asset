@@ -169,7 +169,7 @@ PlayerSettings:
     Android: com.ThirdDimensionMedia.MixedReality
     iPhone: com.ThirdDimensionMedia.MixedReality
   buildNumber:
-    iPhone: 900011101
+    iPhone: 900011201
   AndroidBundleVersionCode: 210011201
   AndroidMinSdkVersion: 21
   AndroidTargetSdkVersion: 0

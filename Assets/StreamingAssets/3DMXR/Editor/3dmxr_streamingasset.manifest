@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 2023435169
+CRC: 258509007
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 4f64b49fa0c942f626010632f6e0ee59
+    Hash: 0754b32fd98554b2cac9db143b305626
   TypeTreeHash:
     serializedVersion: 2
     Hash: ca62a747e125f98e7ece9aadbd00335f
@@ -49,7 +49,6 @@ ClassTypes:
   Script: {instanceID: 0}
 Assets:
 - Assets/Common/Sprites/baseline-arrow_back-android-black/res/drawable-xxxhdpi/baseline_arrow_back_black_48.png
-- Assets/Editor/Vuforia/ImageTargetTextures/Argon_Main/00_3DM_Target_scaled.jpg
 - Assets/Common/Sprites/right-chevron@3x.png
 - Assets/Common/Sprites/left-chevron@3x.png
 - Assets/Common/Sprites/spinner.png

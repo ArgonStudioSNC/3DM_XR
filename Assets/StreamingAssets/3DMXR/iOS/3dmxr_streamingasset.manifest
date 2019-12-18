@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 1344682948
+CRC: 3197791983
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 631d8d0d8f0d7626a86cedb86bf102c8
+    Hash: 5d50d8e572583371b1c0a7c920766acd
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 2d5317f32d3360541c27dad47a7a3d14
+    Hash: ca62a747e125f98e7ece9aadbd00335f
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -52,27 +52,27 @@ Assets:
 - Assets/Common/Sprites/right-chevron@3x.png
 - Assets/Common/Sprites/left-chevron@3x.png
 - Assets/Common/Sprites/spinner.png
-- Assets/Common/Fonts/Roboto-ThinItalic.ttf
+- Assets/Common/Fonts/Roboto/Roboto-ThinItalic.ttf
 - Assets/Common/Sprites/baseline-camera_front-android-black/res/drawable-xxxhdpi/baseline_camera_front_black_48.png
 - Assets/Common/Prefabs/SceneLoader/SceneLoader.prefab
-- Assets/Common/Fonts/Roboto-Thin.ttf
-- Assets/Common/Fonts/Roboto-Bold.ttf
+- Assets/Common/Fonts/Roboto/Roboto-Thin.ttf
+- Assets/Common/Fonts/Roboto/Roboto-Bold.ttf
 - Assets/Common/Sprites/baseline-highlight-android-black/res/drawable-xxxhdpi/baseline_highlight_black_48.png
 - Assets/Common/Sprites/baseline-360-android-black/res/drawable-xxxhdpi/baseline_360_black_48.png
-- Assets/Common/Fonts/Roboto-Medium.ttf
-- Assets/Common/Fonts/Roboto-BoldItalic.ttf
-- Assets/Common/Fonts/Roboto-Black.ttf
-- Assets/Common/Fonts/Roboto-BlackItalic.ttf
+- Assets/Common/Fonts/Roboto/Roboto-Medium.ttf
+- Assets/Common/Fonts/Roboto/Roboto-BoldItalic.ttf
+- Assets/Common/Fonts/Roboto/Roboto-Black.ttf
+- Assets/Common/Fonts/Roboto/Roboto-BlackItalic.ttf
 - Assets/Common/Sprites/baseline-fullscreen-android-black/res/drawable-xxxhdpi/baseline_fullscreen_black_48.png
 - Assets/Common/Sprites/baseline-fullscreen_exit-android-black/res/drawable-xxxhdpi/baseline_fullscreen_exit_black_48.png
-- Assets/Common/Fonts/Roboto-MediumItalic.ttf
+- Assets/Common/Fonts/Roboto/Roboto-MediumItalic.ttf
 - Assets/Common/Sprites/baseline_360_white_48dp.png
 - Assets/Common/Sprites/baseline-more_horiz-android-black/res/drawable-xxxhdpi/baseline_more_horiz_black_48.png
-- Assets/Common/Fonts/Roboto-Regular.ttf
+- Assets/Common/Fonts/Roboto/Roboto-Regular.ttf
 - Assets/Common/Sprites/baseline-more_vert-android-black/res/drawable-xxxhdpi/baseline_more_vert_black_48.png
 - Assets/Common/Sprites/baseline_arrow_back_white_48dp.png
-- Assets/Common/Fonts/Roboto-Light.ttf
-- Assets/Common/Fonts/Roboto-Italic.ttf
-- Assets/Common/Fonts/Roboto-Medium 1.ttf
-- Assets/Common/Fonts/Roboto-LightItalic.ttf
+- Assets/Common/Fonts/Roboto/Roboto-Light.ttf
+- Assets/Common/Fonts/Roboto/Roboto-Italic.ttf
+- Assets/Common/Fonts/Roboto/Roboto-Medium 1.ttf
+- Assets/Common/Fonts/Roboto/Roboto-LightItalic.ttf
 Dependencies: []

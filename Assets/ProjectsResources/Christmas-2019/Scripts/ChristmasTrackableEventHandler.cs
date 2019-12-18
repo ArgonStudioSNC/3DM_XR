@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class ChristmasTrackableEventHandler : CustomTargetTrackableEventHandler
+public class ChristmasTrackableEventHandler : ExtendedDefaultTrackableEventHandler
 {
     #region PUBLIC_VARIABLES
 
