@@ -11,6 +11,7 @@
 /[Uu]ser[Ss]ettings/
 /[Hh]osted[Dd]ata/
 /[Ss]erver[Dd]ata/
+/[Aa]sset[Bb]undle/
 
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
