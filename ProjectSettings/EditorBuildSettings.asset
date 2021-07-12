@@ -6,11 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/ProjectsResources/Christmas-2019/Scenes/Christmas-2019-Intro.unity
-    guid: a1f7d135229e8994aaca9adb2fc2013a
-  - enabled: 1
     path: Assets/ProjectsResources/00-3DMXR/Scenes/3DMXR-Menu.unity
     guid: 58024cfe6e98d455ca2a54aa8ce79c59
+  - enabled: 0
+    path: Assets/ProjectsResources/Christmas-2019/Scenes/Christmas-2019-Intro.unity
+    guid: a1f7d135229e8994aaca9adb2fc2013a
   - enabled: 0
     path: Assets/ProjectsResources/01-Wegmatten/Scenes/Wegmatten-Menu.unity
     guid: a75376b2d07934b0989959011731b3a6

@@ -1,0 +1,38 @@
+ManifestFileVersion: 0
+CRC: 4125802218
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 6841772aef142d70e619e026feef65f8
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2ee10f1b78b1067d9fda4b4a71520112
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: d9cb2ca2055bc504abcc97995578bceb, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: ca830ad49ca295445baebbd3e90ea7de, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 961417a5c22bc3c4baedccbdaa455dbd, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8072b8ce6e0afb344a0a81b7b3f59f86, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/Common/Materials/BlackMask.mat
+- Assets/Common/Shaders/OverlayMesh.shader
+- Assets/ProjectsResources/03-SAAR/StudentsProjects/Uni/DepthMaskShader.mat
+- Assets/Common/Prefabs/ARVR/ARVR.prefab
+- Assets/Common/Shaders/BlackMask.shader
+- Assets/Common/Materials/UnlitShadowReceive.mat
+- Assets/Common/Shaders/UnlitShadowReceive.shader
+Dependencies: []

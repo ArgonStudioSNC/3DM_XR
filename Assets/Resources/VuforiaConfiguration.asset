@@ -22,7 +22,7 @@ MonoBehaviour:
     useDelayedLoadingObjectTargets: 0
     modelTargetRecoWhileExtendedTracked: 1
     version: 8.3.8
-    eulaAcceptedVersions: '{"Values":["7.2","7.5","7.1","8.0","7.7","8.1","0.0","8.3","8.5"]}'
+    eulaAcceptedVersions: '{"Values":["7.2","7.5","7.1","8.0","7.7","8.1","0.0","8.3","8.5","8.6","9.2","9.3","9.4","9.8"]}'
   digitalEyewear:
     cameraOffset: 0.06
     distortionRenderingLayer: 31

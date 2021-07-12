@@ -130,11 +130,11 @@ namespace Vuforia.EditorClasses
 
         static void EnableVuforia(BuildTargetGroup buildTargetGroup)
         {
-            if (!PlayerSettings.GetPlatformVuforiaEnabled(buildTargetGroup))
+            /*if (!PlayerSettings.GetPlatformVuforiaEnabled(buildTargetGroup))
             {
                 Debug.Log("Enabling Vuforia for " + buildTargetGroup.ToString());
                 PlayerSettings.SetPlatformVuforiaEnabled(buildTargetGroup, true);
-            }
+            }*/
         }
 
 

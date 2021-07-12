@@ -1,0 +1,33 @@
+ManifestFileVersion: 0
+CRC: 1468222397
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 57a4f0e5f7c65cbca276bf48eb242e8d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9ce36ba0d2af6073be95f6cdd155d58c
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+Assets:
+- Assets/ProjectsResources/01-Wegmatten/Fonts/SourceSansPro-Regular.ttf
+- Assets/ProjectsResources/01-Wegmatten/Textures/Fluffball/FluffballDayBack.hdr
+- Assets/ProjectsResources/01-Wegmatten/Textures/reticleFocused_tex.png
+- Assets/ProjectsResources/01-Wegmatten/Textures/reticle_tex.png
+- Assets/ProjectsResources/01-Wegmatten/Textures/Fluffball/FluffballDayLeft.hdr
+- Assets/ProjectsResources/01-Wegmatten/Textures/Fluffball/FluffballDayBottom.hdr
+- Assets/ProjectsResources/01-Wegmatten/Materials/reticle_mat.mat
+- Assets/ProjectsResources/01-Wegmatten/Textures/Fluffball/FluffballDayRight.hdr
+- Assets/ProjectsResources/01-Wegmatten/Textures/Fluffball/FluffballDayTop.hdr
+- Assets/ProjectsResources/01-Wegmatten/Materials/6SidedFluffball.mat
+- Assets/ProjectsResources/01-Wegmatten/Textures/Fluffball/FluffballDayFront.hdr
+Dependencies:
+- C:/Users/Loic/Documents/UnityProjects/3DM_XR/AssetBundles/Android/vuforiafeatures_assetbundle
